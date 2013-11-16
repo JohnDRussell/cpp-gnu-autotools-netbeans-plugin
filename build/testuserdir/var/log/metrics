@@ -1,0 +1,904 @@
+<record>
+  <date>2013-11-15T23:10:53</date>
+  <millis>1384575053925</millis>
+  <sequence>346</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>12</thread>
+  <message>USG_SYSTEM_CONFIG</message>
+  <param>Linux, 3.8.0-33-generic, i386</param>
+  <param>Java HotSpot(TM) Client VM, 24.0-b56, Java(TM) SE Runtime Environment, 1.7.0_40-b43</param>
+  <param>NetBeans IDE 7.4 RC1 (Build 201309162201)</param>
+  <param>201309162201</param>
+  <param>${buildday}</param>
+  <param></param>
+  <param>trunk</param>
+  <param></param>
+  <param>36a0a5c713b8</param>
+</record>
+<record>
+  <date>2013-11-15T23:10:53</date>
+  <millis>1384575053931</millis>
+  <sequence>347</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>12</thread>
+  <message>USG_ENABLED_MODULES</message>
+  <param>org.netbeans.modules.cnd.model.services/1 [1.36.4.1]</param>
+  <param>org.eclipse.jgit [2.3.1]</param>
+  <param>org.netbeans.spi.viewmodel/2 [1.43.1]</param>
+  <param>org.netbeans.modules.html.lexer/1 [1.30.1]</param>
+  <param>org.netbeans.modules.editor.search [1.15.1.0.43]</param>
+  <param>org.netbeans.modules.hudson.mercurial [1.22.1]</param>
+  <param>org.netbeans.modules.xml.retriever/1 [1.24.1]</param>
+  <param>org.netbeans.swing.dirchooser [1.22.1]</param>
+  <param>org.netbeans.libs.swingx/1 [1.21.1]</param>
+  <param>org.netbeans.libs.freemarker/1 [2.27.1.238]</param>
+  <param>org.apache.commons.codec [1.3.0]</param>
+  <param>org.netbeans.lib.terminalemulator [1.27.1]</param>
+  <param>org.netbeans.modules.tasklist.projectint/1 [1.22.1]</param>
+  <param>org.netbeans.modules.db/1 [1.58.1.30]</param>
+  <param>org.netbeans.modules.editor.lib2/1 [1.81.1.43]</param>
+  <param>org.netbeans.libs.lucene/3 [3.13.1]</param>
+  <param>org.netbeans.modules.cnd.search [1.7.1]</param>
+  <param>org.netbeans.libs.felix [2.9.1]</param>
+  <param>org.netbeans.modules.bugtracking.bridge [1.32.1]</param>
+  <param>org.eclipse.core.net [1.2.100]</param>
+  <param>org.netbeans.modules.git [1.11.1.1]</param>
+  <param>org.openide.filesystems [8.8.1]</param>
+  <param>org.netbeans.modules.projectapi/1 [1.54.1]</param>
+  <param>org.netbeans.api.search [1.14.1]</param>
+  <param>org.netbeans.modules.options.api/1 [1.36.1]</param>
+  <param>org.netbeans.modules.usersguide/1 [1.42.1]</param>
+  <param>org.netbeans.modules.autoupdate.services [1.42.1]</param>
+  <param>org.netbeans.libs.jna.platform/1 [1.1.1]</param>
+  <param>org.netbeans.modules.editor.fold.nbui [1.4.1.43]</param>
+  <param>org.netbeans.modules.javascript2.jquery [1.1.1]</param>
+  <param>org.netbeans.modules.cnd.indexing [1.6.2]</param>
+  <param>org.netbeans.modules.editor.settings/1 [1.49.1]</param>
+  <param>org.netbeans.modules.spellchecker [1.28.1.1.7]</param>
+  <param>org.netbeans.modules.keyring.fallback [1.1.1]</param>
+  <param>org.netbeans.modules.versioning.core/1 [1.17.2.1.42]</param>
+  <param>org.netbeans.modules.editor.indent.project/0 [1.15.1]</param>
+  <param>org.netbeans.libs.git/1 [1.12.1]</param>
+  <param>org.openide.text [6.58.1]</param>
+  <param>org.netbeans.core/2 [3.43.1]</param>
+  <param>org.netbeans.libs.junit4 [1.14]</param>
+  <param>org.netbeans.modules.options.editor/1 [1.45.1]</param>
+  <param>org.eclipse.equinox.app [1.3.100]</param>
+  <param>org.netbeans.modules.dlight.nativeexecution [1.30.4.1]</param>
+  <param>org.apache.commons.io [1.4]</param>
+  <param>org.netbeans.api.java.classpath/1 [1.39.1]</param>
+  <param>org.netbeans.modules.cnd.spellchecker.bindings/1 [1.24.1.1]</param>
+  <param>org.netbeans.modules.editor.codetemplates/1 [1.35.1.1]</param>
+  <param>org.netbeans.modules.hudson.git [1.11.1]</param>
+  <param>org.netbeans.modules.ide.kit [1.26.1]</param>
+  <param>org.netbeans.modules.projectui.buildmenu/1 [1.20.1.1]</param>
+  <param>org.openide.nodes [7.36.1]</param>
+  <param>org.netbeans.modules.versioning.system.cvss.installer [1.9.1]</param>
+  <param>org.netbeans.modules.db.core [1.29.1]</param>
+  <param>org.netbeans.modules.javascript2.extjs [1.1.1]</param>
+  <param>org.netbeans.libs.ini4j/1 [1.24.1]</param>
+  <param>org.netbeans.modules.xml.xam/1 [1.25.1.1]</param>
+  <param>org.eclipse.mylyn.commons.net [3.9.0]</param>
+  <param>org.netbeans.core.startup/1 [1.51.1]</param>
+  <param>org.netbeans.modules.xml.tools/2 [1.36.1]</param>
+  <param>org.netbeans.modules.spellchecker.bindings.properties [1.15.1]</param>
+  <param>org.netbeans.lib.uihandler [1.38.1]</param>
+  <param>org.netbeans.modules.print.editor [7.20.1]</param>
+  <param>org.netbeans.modules.progress.ui [1.26.1]</param>
+  <param>org.netbeans.modules.options.keymap [1.28.1]</param>
+  <param>org.netbeans.modules.editor.indent/2 [1.34.1]</param>
+  <param>org.netbeans.modules.queries/1 [1.36.1]</param>
+  <param>org.netbeans.modules.html.parser/1 [1.26.1.1]</param>
+  <param>org.netbeans.modules.editor.completion/1 [1.36.1.2]</param>
+  <param>org.netbeans.modules.project.libraries/1 [1.44.1]</param>
+  <param>org.netbeans.modules.css.model [1.24.1]</param>
+  <param>org.netbeans.modules.editor.errorstripe/2 [2.27.1.1.1]</param>
+  <param>org.netbeans.modules.cnd.repository.api/1 [1.25.2.1]</param>
+  <param>org.netbeans.modules.xml.schema.completion [1.23.1]</param>
+  <param>org.netbeans.modules.settings/1 [1.42.1]</param>
+  <param>org.netbeans.modules.cnd.api.project/1 [1.28.1.1]</param>
+  <param>org.netbeans.modules.autoupdate.ui [1.38.1]</param>
+  <param>org.netbeans.modules.netbinox [1.32.1]</param>
+  <param>org.netbeans.modules.cnd.api.model/1 [1.27.2.1]</param>
+  <param>org.netbeans.modules.editor.errorstripe.api/1 [2.26.1.1]</param>
+  <param>org.netbeans.modules.csl.api/2 [2.42.1.2.1.1.8]</param>
+  <param>org.netbeans.modules.cnd.remote [1.21.1.1]</param>
+  <param>org.netbeans.swing.plaf [1.34.1]</param>
+  <param>org.netbeans.modules.tasklist.ui/1 [1.24.1.1.1]</param>
+  <param>org.netbeans.modules.cnd.refactoring/1 [1.23.1.1]</param>
+  <param>org.netbeans.modules.parsing.ui [1.7.1]</param>
+  <param>org.netbeans.modules.dlight.remote [1.22.3.1]</param>
+  <param>org.netbeans.modules.cnd.repository [1.24.1.1]</param>
+  <param>org.eclipse.equinox.common [3.6.0]</param>
+  <param>org.netbeans.modules.ide.ergonomics [1.22.1]</param>
+  <param>org.netbeans.swing.tabcontrol [1.46.1]</param>
+  <param>org.netbeans.modules.remotefs.versioning [1.8.1.1]</param>
+  <param>org.netbeans.modules.editor.breadcrumbs/0 [1.9.1]</param>
+  <param>com.jcraft.jzlib [1.0.7]</param>
+  <param>org.openide.loaders [7.51.1]</param>
+  <param>org.netbeans.modules.junitlib [1.1]</param>
+  <param>org.netbeans.modules.properties.syntax/1 [1.43.1]</param>
+  <param>org.netbeans.modules.keyring.impl [1.14.1]</param>
+  <param>org.netbeans.core.network [1.1.1]</param>
+  <param>org.netbeans.modules.html.editor.lib/3 [3.20.1]</param>
+  <param>org.apache.xml.resolver [1.25.1.12]</param>
+  <param>org.netbeans.libs.nashorn/1 [1.13.1]</param>
+  <param>org.netbeans.modules.tasklist.todo/1 [1.24.1.1]</param>
+  <param>org.netbeans.modules.db.metadata.model/1 [1.4.1]</param>
+  <param>org.apache.ws.commons.util [1.0.1]</param>
+  <param>org.netbeans.modules.server/0 [1.26.1]</param>
+  <param>org.apache.commons.lang [2.4.0]</param>
+  <param>org.netbeans.modules.db.sql.editor [1.29.1.30]</param>
+  <param>org.netbeans.modules.html/1 [1.53.1]</param>
+  <param>org.netbeans.modules.hudson.tasklist [1.10.1]</param>
+  <param>org.netbeans.modules.cnd.navigation [1.27.1.1]</param>
+  <param>org.netbeans.modules.editor.mimelookup.impl/1 [1.24.1]</param>
+  <param>org.netbeans.modules.db.dataview [1.22.1]</param>
+  <param>org.openide.awt [7.59.1]</param>
+  <param>org.netbeans.modules.cnd.apt [1.37.1.1]</param>
+  <param>org.netbeans.modules.dlight.remote.impl [1.20.2.1]</param>
+  <param>org.netbeans.libs.commons_net/2 [2.14.1.33]</param>
+  <param>org.netbeans.modules.diff/1 [1.44.1.42.1]</param>
+  <param>org.netbeans.modules.web.browser.api [1.34.1]</param>
+  <param>org.netbeans.spi.editor.hints/0 [1.32.1.7.43]</param>
+  <param>org.netbeans.modules.ide.branding/1 [1.26.1]</param>
+  <param>org.openide.dialogs [7.32.1]</param>
+  <param>org.netbeans.modules.cnd.dwarfdump [1.28.1.1]</param>
+  <param>org.netbeans.spi.editor.hints.projects [1.4.1.1.7]</param>
+  <param>org.netbeans.modules.xml.lexer [1.23.1]</param>
+  <param>org.netbeans.modules.html.knockout [1.3.1]</param>
+  <param>org.netbeans.libs.json_simple/1 [0.6.1]</param>
+  <param>org.netbeans.modules.cnd.kit [1.24.1.1]</param>
+  <param>org.netbeans.modules.cnd.makeproject.source.bridge [1.19.1.1]</param>
+  <param>org.netbeans.modules.javahelp/1 [2.34.1]</param>
+  <param>org.netbeans.modules.projectui [1.47.1.8]</param>
+  <param>org.openide.util [8.33.1]</param>
+  <param>org.eclipse.mylyn.tasks.core [3.9.0]</param>
+  <param>org.netbeans.modules.mylyn.util [1.16.1]</param>
+  <param>org.netbeans.modules.editor.kit [1.26.1]</param>
+  <param>org.eclipse.equinox.preferences [3.4.2]</param>
+  <param>org.netbeans.modules.subversion [1.32.1.42.1]</param>
+  <param>org.netbeans.modules.cnd.folding [1.24.1.1]</param>
+  <param>org.netbeans.libs.bytelist/1 [0.21.1.1]</param>
+  <param>org.netbeans.modules.utilities.project/1 [1.30.1]</param>
+  <param>org.netbeans.modules.css.editor/1 [1.57.1]</param>
+  <param>org.netbeans.bootstrap/1 [2.63.1]</param>
+  <param>org.netbeans.core.ide/1 [1.34.1]</param>
+  <param>org.netbeans.modules.xml.core/2 [1.36.1.4]</param>
+  <param>org.netbeans.modules.cnd.testrunner [1.17.1.1]</param>
+  <param>org.netbeans.modules.cppgnuautotools [1.0.1.1.1.1.1.1.2.1.1.1.3.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.2.1.1.1.1]</param>
+  <param>org.netbeans.modules.editor.bookmarks/1 [1.30.1]</param>
+  <param>org.netbeans.modules.masterfs/2 [2.44.1]</param>
+  <param>org.netbeans.modules.css.prep [1.17.1]</param>
+  <param>org.netbeans.modules.project.indexingbridge [1.10.1]</param>
+  <param>org.netbeans.modules.cnd.qnavigator/1 [1.25.3.1]</param>
+  <param>org.netbeans.modules.print [7.19.1]</param>
+  <param>org.netbeans.modules.languages.manifest [1.25.1]</param>
+  <param>org.netbeans.modules.web.common [1.59.1]</param>
+  <param>org.netbeans.modules.localhistory [1.27.1]</param>
+  <param>org.netbeans.modules.cnd.api.remote/1 [1.19.2.1]</param>
+  <param>org.eclipse.mylyn.wikitext.core [1.8.0]</param>
+  <param>org.netbeans.modules.html.editor/2 [2.40.1]</param>
+  <param>org.netbeans.modules.cnd.modelimpl/1 [1.45.4.1]</param>
+  <param>org.netbeans.modules.updatecenters/1 [1.33.1]</param>
+  <param>org.netbeans.modules.html.angular [1.4.1]</param>
+  <param>org.netbeans.modules.sendopts/2 [2.28.1]</param>
+  <param>org.netbeans.modules.team.commons [1.18.1]</param>
+  <param>org.netbeans.modules.html.validation/1 [1.23.1]</param>
+  <param>org.apache.xmlrpc [3.0.0]</param>
+  <param>org.netbeans.modules.projectuiapi/1 [1.72.1.8]</param>
+  <param>org.openide.execution [1.33.1]</param>
+  <param>org.netbeans.spi.debugger.ui/1 [2.40.1]</param>
+  <param>org.netbeans.libs.xerces/1 [1.32.1.281]</param>
+  <param>org.eclipse.mylyn.commons.core [3.9.0]</param>
+  <param>org.netbeans.modules.versioning.masterfs [1.7.1]</param>
+  <param>org.netbeans.modules.notifications [1.1.1]</param>
+  <param>org.netbeans.modules.cnd.debugger.common2/3 [3.20.1.3]</param>
+  <param>org.netbeans.modules.web.webkit.debugging [1.29.1]</param>
+  <param>org.netbeans.modules.web.indent [1.12.1]</param>
+  <param>org.netbeans.modules.cnd.completion/1 [1.26.3.1]</param>
+  <param>org.netbeans.modules.parsing.lucene/2 [2.25.1.1]</param>
+  <param>org.netbeans.modules.versioning.util [1.50.1.42.1]</param>
+  <param>org.netbeans.modules.languages.yaml [2.25.1]</param>
+  <param>org.netbeans.modules.mercurial [1.34.1.42.1]</param>
+  <param>org.netbeans.modules.xsl/1 [1.36.1]</param>
+  <param>org.netbeans.core.multitabs.project [1.3.1.1.1]</param>
+  <param>org.eclipse.core.jobs [3.5.101]</param>
+  <param>org.netbeans.libs.osgi [1.15.1]</param>
+  <param>org.apache.commons.logging [1.1.1]</param>
+  <param>org.netbeans.modules.spellchecker.bindings.htmlxml [1.20.1]</param>
+  <param>org.netbeans.modules.xml.catalog/2 [1.34.1.4]</param>
+  <param>org.netbeans.core.browser/1 [1.21.1.1]</param>
+  <param>org.netbeans.modules.cnd.callgraph [1.20.1.1]</param>
+  <param>org.netbeans.libs.antlr3.runtime [1.15.1.1]</param>
+  <param>org.netbeans.modules.editor.plain/2 [1.28.1]</param>
+  <param>org.netbeans.modules.welcome/1 [1.35.1]</param>
+  <param>org.netbeans.modules.dlight.kit [1.19.1.1]</param>
+  <param>org.netbeans.modules.lexer.nbbridge/1 [1.25.1.1]</param>
+  <param>org.netbeans.modules.httpserver/2 [2.29.1.42]</param>
+  <param>org.eclipse.equinox.security [1.1.1]</param>
+  <param>org.netbeans.modules.utilities/1 [1.51.1]</param>
+  <param>org.netbeans.modules.db.drivers [1.23.1]</param>
+  <param>org.netbeans.modules.javascript2.kit/1 [0.6.1]</param>
+  <param>org.netbeans.modules.cnd.discovery [1.39.6.1]</param>
+  <param>org.netbeans.api.progress/1 [1.35.1]</param>
+  <param>org.netbeans.libs.svnClientAdapter.javahl/1 [1.16.1]</param>
+  <param>org.netbeans.modules.defaults/1 [1.25.1]</param>
+  <param>org.eclipse.core.runtime [3.7.0]</param>
+  <param>org.eclipse.mylyn.commons.xmlrpc [3.9.0]</param>
+  <param>org.netbeans.modules.team.ide [1.1.1]</param>
+  <param>org.netbeans.modules.jumpto/1 [1.39.1.1]</param>
+  <param>org.netbeans.modules.db.mysql [0.21.1.2]</param>
+  <param>org.netbeans.modules.db.kit [1.24.1]</param>
+  <param>org.netbeans.modules.cnd.editor/1 [1.24.1.1]</param>
+  <param>org.netbeans.core.nativeaccess/1 [1.23.1]</param>
+  <param>org.openide.explorer [6.53.1]</param>
+  <param>org.netbeans.swing.outline [1.27.1]</param>
+  <param>org.netbeans.modules.db.sql.visualeditor/1 [2.24.1.30]</param>
+  <param>org.netbeans.modules.properties/1 [1.47.1]</param>
+  <param>org.netbeans.modules.xml.tax/2 [1.36.1.281]</param>
+  <param>org.openide.util.lookup [8.22.1]</param>
+  <param>org.netbeans.modules.hudson.subversion [1.22.1]</param>
+  <param>org.netbeans.modules.cnd.classview/1 [1.24.1.1]</param>
+  <param>org.netbeans.modules.cnd/1 [1.30.1.1]</param>
+  <param>org.netbeans.modules.cnd.asm/1 [1.22.1.2]</param>
+  <param>org.netbeans.modules.cnd.remote.projectui [1.9.1.1]</param>
+  <param>com.jcraft.jsch [0.1.49]</param>
+  <param>org.eclipse.core.contenttype [3.4.100]</param>
+  <param>org.netbeans.modules.cnd.source [1.16.1.1]</param>
+  <param>org.netbeans.core.browser.webview/1 [1.8.1.1.1]</param>
+  <param>org.netbeans.modules.editor.lib/3 [3.46.1.22.43]</param>
+  <param>org.netbeans.spi.quicksearch [1.20.1]</param>
+  <param>org.netbeans.core.output2/1 [1.34.1]</param>
+  <param>org.netbeans.modules.versioning/1 [1.40.1.1]</param>
+  <param>org.netbeans.modules.cnd.toolchain [1.26.1.1]</param>
+  <param>org.netbeans.modules.bugtracking [1.64.1]</param>
+  <param>org.netbeans.modules.spellchecker.dictionary_en [1.16.1]</param>
+  <param>org.netbeans.modules.cnd.lexer/1 [1.27.1.1]</param>
+  <param>org.netbeans.modules.uihandler [2.28.1]</param>
+  <param>org.netbeans.modules.dlight.terminal [1.16.1.1]</param>
+  <param>org.netbeans.modules.xml.text/2 [1.41.1]</param>
+  <param>org.netbeans.core.multiview/1 [1.36.1]</param>
+  <param>org.netbeans.core.execution/1 [1.34.1]</param>
+  <param>org.netbeans.core.multitabs [1.3.3.1]</param>
+  <param>org.netbeans.modules.refactoring.api [1.37.1.1]</param>
+  <param>org.netbeans.modules.image/1 [1.41.1]</param>
+  <param>org.netbeans.modules.editor.tools.storage [1.1.1]</param>
+  <param>org.netbeans.spi.palette/1 [1.38.1]</param>
+  <param>org.netbeans.modules.favorites/1 [1.36.1]</param>
+  <param>org.netbeans.libs.jna/1 [1.31.1]</param>
+  <param>org.netbeans.libs.svnClientAdapter.svnkit/1 [1.16.1]</param>
+  <param>org.netbeans.modules.cnd.highlight [1.25.1.1.1]</param>
+  <param>org.netbeans.modules.cnd.utils [1.40.3.2]</param>
+  <param>org.netbeans.modules.gsf.testrunner/1 [1.37.1]</param>
+  <param>org.netbeans.modules.servletapi/1 [1.33.1]</param>
+  <param>org.netbeans.modules.autoupdate.pluginimporter [1.13.1]</param>
+  <param>org.eclipse.core.runtime.compatibility.auth [3.2.200]</param>
+  <param>org.netbeans.spi.tasklist/1 [1.27.1.1]</param>
+  <param>org.netbeans.modules.parsing.api/1 [1.69.1.8]</param>
+  <param>org.netbeans.modules.css.visual/3 [3.24.1]</param>
+  <param>org.netbeans.modules.editor.bracesmatching/0 [1.31.1.43]</param>
+  <param>org.netbeans.api.annotations.common/1 [1.21.1]</param>
+  <param>org.netbeans.modules.keyring [1.17.1]</param>
+  <param>org.netbeans.modules.editor/3 [1.75.1.5.22.43]</param>
+  <param>org.netbeans.libs.jsch.agentproxy/1 [0.4.1]</param>
+  <param>org.netbeans.spi.navigator/1 [1.30.1]</param>
+  <param>org.netbeans.modules.editor.guards/1 [1.23.1]</param>
+  <param>org.netbeans.modules.autoupdate.cli [1.6.1]</param>
+  <param>org.netbeans.core.io.ui/1 [1.23.1]</param>
+  <param>org.netbeans.modules.dbapi [1.27.1.30]</param>
+  <param>org.eclipse.mylyn.bugzilla.core [3.9.0]</param>
+  <param>org.netbeans.modules.uihandler.exceptionreporter [1.22.1]</param>
+  <param>org.openide.windows [6.65.1]</param>
+  <param>org.netbeans.modules.css.lib/1 [1.65.1]</param>
+  <param>org.netbeans.core.windows/2 [2.66.1]</param>
+  <param>org.netbeans.modules.lexer/2 [1.53.1.1]</param>
+  <param>org.netbeans.modules.cnd.debugger.gdb2/1 [1.15.1.1]</param>
+  <param>org.netbeans.modules.cnd.script [1.15.1.1]</param>
+  <param>org.netbeans.modules.cnd.modelui [1.27.1.1]</param>
+  <param>org.netbeans.modules.versioning.indexingbridge/0 [1.18.1]</param>
+  <param>org.netbeans.modules.cnd.gotodeclaration [1.25.1.1]</param>
+  <param>org.netbeans.modules.hudson.ui [1.1.1]</param>
+  <param>org.netbeans.libs.jvyamlb/1 [0.23.1]</param>
+  <param>org.netbeans.modules.xml.xdm/1 [1.26.1.1]</param>
+  <param>org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.20.1.1.5.22.43]</param>
+  <param>org.netbeans.modules.cnd.dwarfdiscovery [1.26.1.1]</param>
+  <param>org.netbeans.modules.editor.mimelookup/1 [1.33.1]</param>
+  <param>org.netbeans.modules.bugzilla [1.42.1]</param>
+  <param>org.netbeans.modules.editor.actions/1 [1.23.1.43]</param>
+  <param>org.netbeans.modules.core.kit [1.23.1]</param>
+  <param>org.netbeans.modules.spellchecker.kit [1.19.1]</param>
+  <param>org.netbeans.modules.terminal [1.16.1]</param>
+  <param>org.netbeans.modules.editor.fold/1 [1.37.1]</param>
+  <param>org.netbeans.modules.editor.settings.storage/1 [1.41.1]</param>
+  <param>org.netbeans.modules.extexecution.impl [1.18.1]</param>
+  <param>org.netbeans.modules.editor.global.format/1 [1.8.1.1]</param>
+  <param>org.netbeans.libs.svnClientAdapter/1 [1.32.1]</param>
+  <param>org.netbeans.core.ui/1 [1.38.1]</param>
+  <param>org.netbeans.modules.project.ant/1 [1.56.1]</param>
+  <param>org.netbeans.modules.extbrowser/1 [1.44.1]</param>
+  <param>org.apache.commons.httpclient [3.1.0]</param>
+  <param>org.netbeans.modules.javascript2.knockout [1.1.1]</param>
+  <param>org.netbeans.modules.hudson [2.1.1]</param>
+  <param>org.netbeans.modules.extexecution/2 [1.39.1]</param>
+  <param>org.netbeans.modules.cnd.simpleunit [1.15.1.1.1]</param>
+  <param>org.netbeans.modules.javascript2.editor/1 [0.29.1]</param>
+  <param>org.netbeans.modules.dlight.libs.common [1.29.1.1]</param>
+  <param>org.netbeans.modules.cnd.makeproject/2 [2.45.5.1]</param>
+  <param>org.netbeans.modules.xml.schema.model/1 [1.25.1.1]</param>
+  <param>org.netbeans.modules.editor.structure/1 [1.40.1.1]</param>
+  <param>org.netbeans.modules.cnd.cncppunit [1.16.1.1.1]</param>
+  <param>org.netbeans.modules.cnd.modelutil/1 [1.28.2.1]</param>
+  <param>org.netbeans.modules.bugzilla.exceptionreporter [1.17.1]</param>
+  <param>org.netbeans.modules.spellchecker.apimodule [1.18.1]</param>
+  <param>org.netbeans.modules.languages.diff [1.26.1]</param>
+  <param>org.openide.modules [7.39.1]</param>
+  <param>org.netbeans.modules.xml [1.24.1]</param>
+  <param>org.openide.io [1.42.1]</param>
+  <param>org.eclipse.mylyn.commons.repositories.core [1.1.0]</param>
+  <param>org.netbeans.modules.editor.util/1 [1.55.1]</param>
+  <param>org.netbeans.modules.sampler [1.7.1]</param>
+  <param>org.netbeans.modules.versioning.ui/1 [1.13.1.42.1]</param>
+  <param>org.netbeans.modules.cnd.antlr [2.31.1.1]</param>
+  <param>org.netbeans.core.netigso [1.23.1]</param>
+  <param>org.netbeans.modules.cnd.modeldiscovery [1.24.1.1]</param>
+  <param>org.netbeans.modules.derby [1.33.1]</param>
+  <param>org.netbeans.modules.xml.axi [1.24.1]</param>
+  <param>org.openide.actions [6.32.1]</param>
+  <param>org.netbeans.api.visual [2.40.1]</param>
+  <param>org.netbeans.modules.masterfs.linux [1.7.1]</param>
+  <param>org.netbeans.modules.tasklist.kit [1.22.1]</param>
+  <param>org.netbeans.api.debugger/1 [1.43.1]</param>
+  <param>org.netbeans.modules.cnd.litemodel [1.14.1.1]</param>
+  <param>org.eclipse.equinox.registry [3.5.200]</param>
+  <param>org.netbeans.upgrader [4.28.1]</param>
+  <param>org.netbeans.api.xml/1 [1.36.1]</param>
+  <param>org.netbeans.modules.editor.plain.lib/1 [1.27.1]</param>
+  <param>org.netbeans.modules.editor.macros/0 [1.24.1.1.22]</param>
+  <param>org.netbeans.modules.ide.branding.kit [1.22.1]</param>
+</record>
+<record>
+  <date>2013-11-15T23:10:53</date>
+  <millis>1384575053933</millis>
+  <sequence>348</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>12</thread>
+  <message>USG_DISABLED_MODULES</message>
+  <param>org.netbeans.modules.options.java [1.7.1]</param>
+  <param>org.netbeans.modules.apisupport.crudsample [1.16.1]</param>
+  <param>org.netbeans.modules.javaee7.api [1.1.1]</param>
+  <param>org.netbeans.modules.maven.model/1 [1.32.1]</param>
+  <param>org.netbeans.modules.refactoring.java/1 [1.48.1.1]</param>
+  <param>org.netbeans.modules.websocket [1.2.1]</param>
+  <param>org.netbeans.modules.javafx2.scenebuilder [1.10.1]</param>
+  <param>org.netbeans.libs.commons_fileupload/1 [1.22.1]</param>
+  <param>org.netbeans.modules.j2ee.jpa.verification [1.27.1]</param>
+  <param>org.netbeans.modules.dbschema/1 [1.33.1.4.30]</param>
+  <param>org.netbeans.modules.web.inspect [0.19.1]</param>
+  <param>org.netbeans.modules.jellytools.ide/3 [3.22.1.2]</param>
+  <param>org.netbeans.modules.javafx2.samples [1.10.1]</param>
+  <param>org.netbeans.modules.maven.indexer/2 [2.25.1]</param>
+  <param>org.jdesktop.beansbinding/1 [1.21.1.121]</param>
+  <param>org.netbeans.lib.nbjavac [1.10.1.2.24]</param>
+  <param>org.netbeans.modules.websvc.rest/0 [1.24.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.zvents [1.21.1]</param>
+  <param>org.netbeans.modules.web.jsf12ri/1 [1.21.1.12]</param>
+  <param>org.netbeans.modules.profiler.freeform/1 [1.26.1]</param>
+  <param>org.netbeans.modules.php.symfony [1.32.1]</param>
+  <param>org.netbeans.modules.cordova.platforms.android [1.20.1]</param>
+  <param>org.netbeans.modules.websvc.metro.lib/1 [1.24.1]</param>
+  <param>org.netbeans.modules.profiler.snaptracer/1 [1.14.1]</param>
+  <param>org.netbeans.modules.profiler.categorization.api/1 [1.10.1]</param>
+  <param>org.netbeans.modules.form.kit [1.22.1]</param>
+  <param>org.netbeans.modules.javafx2.platform [1.19.1]</param>
+  <param>org.netbeans.modules.form/2 [1.50.1.4]</param>
+  <param>org.netbeans.modules.web.jsfapi/1 [1.29.1]</param>
+  <param>org.netbeans.modules.jellytools.platform/3 [3.19.1]</param>
+  <param>org.netbeans.modules.xml.tools.java [1.22.1]</param>
+  <param>org.netbeans.modules.web.debug/1 [2.32.1]</param>
+  <param>org.netbeans.modules.php.atoum [0.4.1]</param>
+  <param>org.netbeans.modules.j2eeapis/1 [1.29.1]</param>
+  <param>org.netbeans.modules.j2ee.persistence [1.42.1.1]</param>
+  <param>org.netbeans.modules.javaee.project [1.9.1]</param>
+  <param>org.netbeans.modules.maven.apisupport/1 [1.47.1]</param>
+  <param>org.netbeans.modules.java.examples/1 [1.29.1]</param>
+  <param>org.netbeans.modules.debugger.jpda/2 [1.56.1]</param>
+  <param>org.netbeans.modules.cloud.amazon/0 [1.8.1]</param>
+  <param>org.netbeans.modules.beans/1 [1.43.1.1.10]</param>
+  <param>org.netbeans.modules.testng.ant [2.8.1]</param>
+  <param>org.netbeans.modules.java.lexer/1 [1.25.1]</param>
+  <param>org.netbeans.modules.profiler.utilities/1 [1.28.1]</param>
+  <param>org.netbeans.modules.websvc.customization [1.22.1.2]</param>
+  <param>org.netbeans.modules.mobility.project [1.28.1]</param>
+  <param>org.netbeans.modules.php.smarty [1.77.1]</param>
+  <param>org.netbeans.modules.testng.maven [2.9.1]</param>
+  <param>org.netbeans.modules.ant.browsetask [1.34.1]</param>
+  <param>org.netbeans.modules.j2ee.core/0 [1.20.1]</param>
+  <param>org.netbeans.modules.maven.samples/1 [1.19.1]</param>
+  <param>org.netbeans.modules.java.guards/0 [0.24.1]</param>
+  <param>org.netbeans.modules.j2ee.jboss4/1 [1.33.1]</param>
+  <param>org.netbeans.modules.profiler.projectsupport [1.25.1]</param>
+  <param>org.netbeans.modules.java.source [0.129.1.26.2.24.8]</param>
+  <param>org.netbeans.modules.web.el [1.39.1]</param>
+  <param>org.netbeans.modules.code.analysis/0 [1.18.1]</param>
+  <param>org.netbeans.modules.php.project [2.101.1]</param>
+  <param>org.netbeans.modules.masterfs.windows [1.7.1]</param>
+  <param>org.netbeans.modules.profiler.options [1.10.1]</param>
+  <param>org.netbeans.modules.j2ee.sun.dd/1 [1.29.1.1]</param>
+  <param>org.netbeans.modules.el.lexer/1 [1.24.1]</param>
+  <param>org.netbeans.modules.hibernatelib/1 [1.20.1.325.238]</param>
+  <param>org.netbeans.modules.javaee.resources [1.5.1]</param>
+  <param>org.netbeans.lib.profiler.charts/1 [1.20.1]</param>
+  <param>org.netbeans.modules.javaee.injection [1.0.1]</param>
+  <param>org.netbeans.modules.j2ee.ejbverification [1.27.1]</param>
+  <param>org.netbeans.modules.profiler.oql/2 [2.9.1]</param>
+  <param>org.netbeans.modules.java.source.queriesimpl [1.10.1]</param>
+  <param>org.netbeans.modules.javafx2.kit [1.11.1]</param>
+  <param>org.netbeans.lib.profiler/1 [1.44.1]</param>
+  <param>org.netbeans.modules.websvc.restlib/2 [2.2.1]</param>
+  <param>org.netbeans.modules.apisupport.osgidemo [1.16.1]</param>
+  <param>org.netbeans.modules.apisupport.ant [2.62.1]</param>
+  <param>org.netbeans.modules.maven.j2ee/1 [1.49.1]</param>
+  <param>org.netbeans.modules.web.jsf.kit [1.23.1]</param>
+  <param>org.netbeans.modules.apisupport.restsample [1.14.1]</param>
+  <param>org.netbeans.modules.profiler.drilldown/1 [1.9.1]</param>
+  <param>org.netbeans.core.osgi [1.15.1]</param>
+  <param>org.netbeans.modules.languages.neon [1.13.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.platform.ojec [1.12.1]</param>
+  <param>org.netbeans.spi.java.hints [1.18.1.13.2.24.26.8]</param>
+  <param>org.netbeans.modules.mobility.cldcplatform [1.23.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.amazon [1.22.1]</param>
+  <param>org.netbeans.modules.masterfs.solaris [1.7.1]</param>
+  <param>org.netbeans.modules.xml.wsdl.model/1 [1.26.1.1]</param>
+  <param>org.netbeans.modules.j2ee.eclipselink/1 [1.25.1]</param>
+  <param>org.netbeans.modules.form.j2ee/0 [0.26.1.1.4.1]</param>
+  <param>org.netbeans.modules.web.jsf12/1 [1.21.1.12]</param>
+  <param>org.netbeans.modules.maven.checkstyle [1.10.1]</param>
+  <param>org.netbeans.modules.spring.webmvc [1.29.1]</param>
+  <param>org.netbeans.modules.maven.groovy [1.7.1]</param>
+  <param>org.netbeans.modules.web.jsf20/1 [1.26.1.1]</param>
+  <param>org.netbeans.libs.springframework [1.27.1]</param>
+  <param>org.netbeans.modules.profiler.j2se/1 [1.28.1]</param>
+  <param>org.openide.options [6.29.1]</param>
+  <param>org.netbeans.modules.maven/2 [2.86.1]</param>
+  <param>org.netbeans.modules.java.preprocessorbridge [1.32.1.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.nokiaS80 [1.21.1]</param>
+  <param>org.netbeans.modules.ant.kit [1.23.1]</param>
+  <param>org.netbeans.libs.plist [1.1.1]</param>
+  <param>org.netbeans.modules.testng [2.12.1]</param>
+  <param>org.netbeans.modules.web.client.kit [1.5.1]</param>
+  <param>org.netbeans.modules.gototest/1 [1.24.1]</param>
+  <param>org.netbeans.libs.testng/1 [1.8.1]</param>
+  <param>org.netbeans.modules.java.j2seprofiles [1.1.1]</param>
+  <param>org.netbeans.modules.apisupport.feedreader/1 [1.27.1]</param>
+  <param>org.netbeans.modules.j2ee.jpa.refactoring [1.24.1]</param>
+  <param>org.netbeans.modules.xml.multiview/1 [1.30.1.2]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.execui [1.19.1]</param>
+  <param>org.netbeans.modules.languages.ini [1.17.1]</param>
+  <param>org.netbeans.modules.cordova.platforms [1.28.1]</param>
+  <param>org.netbeans.modules.websvc.rest.samples/0 [1.19.1]</param>
+  <param>org.netbeans.modules.web.refactoring [1.22.1.45]</param>
+  <param>org.netbeans.modules.j2ee.weblogic9/1 [1.34.1.1]</param>
+  <param>org.netbeans.modules.maven.profiler/1 [1.23.1]</param>
+  <param>org.netbeans.modules.profiler.kit [1.11.1]</param>
+  <param>org.openide.compat [6.28.1]</param>
+  <param>org.netbeans.libs.jstestdriver [1.5.1]</param>
+  <param>org.netbeans.modules.groovy.gsp [1.29.1]</param>
+  <param>org.netbeans.modules.websvc.wsstackapi/0 [1.19.1]</param>
+  <param>org.netbeans.modules.glassfish.javaee/0 [1.30.1]</param>
+  <param>org.netbeans.modules.javafx2.project [1.21.1]</param>
+  <param>org.netbeans.modules.languages.apacheconf [1.10.1]</param>
+  <param>org.netbeans.modules.jellytools.enterprise/3 [3.19.1]</param>
+  <param>org.netbeans.modules.web.core/2 [2.28.1.45.2]</param>
+  <param>org.netbeans.modules.java.j2seproject/1 [1.68.1.46]</param>
+  <param>org.netbeans.libs.javacimpl/1 [0.35.1.24]</param>
+  <param>org.netbeans.modules.php.apigen [1.16.1]</param>
+  <param>org.netbeans.modules.hibernate/1 [1.25.3.1]</param>
+  <param>org.netbeans.modules.j2ee.ejbcore [1.46.1]</param>
+  <param>org.netbeans.modules.groovy.editor/2 [1.53.1]</param>
+  <param>org.netbeans.modules.web.client.samples [1.5.1]</param>
+  <param>org.netbeans.modules.form.binding/0 [0.10.1.1.4.1]</param>
+  <param>org.netbeans.modules.websvc.saas.codegen.php [1.22.1]</param>
+  <param>org.netbeans.modules.websvc.metro.model [1.19.1]</param>
+  <param>org.netbeans.modules.cordova.platforms.ios [1.20.1]</param>
+  <param>org.netbeans.modules.apisupport.refactoring [1.29.1]</param>
+  <param>org.netbeans.modules.jellytools.java/3 [3.21.1]</param>
+  <param>org.netbeans.api.java/1 [1.49.1]</param>
+  <param>org.netbeans.modules.j2ee.sun.appsrv/1 [1.29.1.1]</param>
+  <param>org.netbeans.modules.java.hints.test/1 [1.10.1.1.26.8.13]</param>
+  <param>org.netbeans.modules.web.kit [1.23.1]</param>
+  <param>org.netbeans.modules.php.nette2/1 [1.1.1]</param>
+  <param>org.netbeans.modules.spring.beans/0 [1.30.1.1]</param>
+  <param>org.netbeans.modules.web.clientproject [1.45.1]</param>
+  <param>org.netbeans.modules.php.zend [1.22.1]</param>
+  <param>org.openidex.util/3 [3.40.1]</param>
+  <param>org.netbeans.modules.websvc.kit [1.21.1]</param>
+  <param>org.netbeans.modules.profiler.nbmodule/1 [1.27.1]</param>
+  <param>org.netbeans.modules.jemmy/3 [3.21.1]</param>
+  <param>org.netbeans.modules.mobility.end2end [1.24.1]</param>
+  <param>org.netbeans.modules.form.refactoring/0 [0.10.1.1.4.1]</param>
+  <param>org.netbeans.modules.java.sourceui/1 [1.33.1.1.26]</param>
+  <param>org.netbeans.modules.j2ee.common/1 [1.98.1]</param>
+  <param>org.netbeans.modules.projectimport.eclipse.core/1 [2.23.1]</param>
+  <param>org.netbeans.modules.java.project/1 [1.56.1]</param>
+  <param>org.netbeans.modules.apisupport.installer.maven [1.15.1]</param>
+  <param>org.netbeans.modules.websvc.wsitmodelext [3.23.1]</param>
+  <param>org.netbeans.modules.php.symfony2/1 [1.17.1]</param>
+  <param>org.netbeans.modules.websvc.manager [1.24.1]</param>
+  <param>org.netbeans.modules.schema2beans/1 [1.40.1]</param>
+  <param>org.netbeans.modules.nbjunit/1 [1.81.1]</param>
+  <param>org.netbeans.modules.j2ee.platform/1 [1.27.1]</param>
+  <param>org.netbeans.modules.websvc.core [1.39.1.1.4]</param>
+  <param>org.netbeans.modules.debugger.jpda.kit [1.9.1]</param>
+  <param>org.netbeans.modules.j2ee.persistence.kit [1.25.1]</param>
+  <param>org.netbeans.modules.websvc.utilities/0 [1.21.1]</param>
+  <param>org.netbeans.modules.php.phpunit/0 [0.9.1]</param>
+  <param>org.netbeans.modules.groovy.grails [1.35.1]</param>
+  <param>org.netbeans.modules.cordova [1.21.1]</param>
+  <param>org.netbeans.modules.mobility.project.bridge [1.19.1]</param>
+  <param>org.netbeans.modules.websvc.wsitconf [3.27.1]</param>
+  <param>org.netbeans.modules.j2ee.genericserver [1.27.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.zillow [1.21.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.savaje [1.22.1]</param>
+  <param>org.netbeans.modules.mobility.plugins.mpowerplayer [1.20.1]</param>
+  <param>org.netbeans.modules.jellytools.cnd/3 [3.18.1]</param>
+  <param>org.netbeans.modules.php.composer/0 [0.13.1]</param>
+  <param>org.netbeans.modules.mobility.j2meunit [1.25.1]</param>
+  <param>org.netbeans.modules.mobility.licensing [1.21.1]</param>
+  <param>org.netbeans.modules.mobility.svgcore [1.24.1]</param>
+  <param>org.netbeans.modules.swing.validation/2 [1.25.1]</param>
+  <param>org.eclipse.mylyn.wikitext.textile.core [1.8.0]</param>
+  <param>org.netbeans.modules.java.hints.legacy.spi/1 [1.8.1.1.13]</param>
+  <param>org.netbeans.modules.j2ee.sun.ddui/1 [1.30.1.1.1]</param>
+  <param>org.netbeans.modules.debugger.jpda.heapwalk/1 [1.24.1]</param>
+  <param>org.netbeans.modules.profiler.nbimpl/1 [1.11.1]</param>
+  <param>org.netbeans.modules.websvc.editor.hints [1.23.1]</param>
+  <param>org.netbeans.modules.ant.grammar/1 [1.37.1]</param>
+  <param>org.netbeans.modules.maven.repository/1 [1.32.1]</param>
+  <param>org.netbeans.modules.php.api.templates/0 [0.2.1]</param>
+  <param>org.netbeans.modules.junit/2 [2.60.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.strikeiron [1.21.1]</param>
+  <param>org.netbeans.modules.websvc.restapi/0 [1.32.1]</param>
+  <param>org.netbeans.modules.j2ee.earproject [1.46.1]</param>
+  <param>org.netbeans.modules.maven.jaxws [1.23.1]</param>
+  <param>org.netbeans.modules.php.api.phpmodule [2.26.1]</param>
+  <param>org.netbeans.modules.mobility.kit [1.23.1]</param>
+  <param>org.netbeans.modules.web.jsf.navigation/1 [2.22.1]</param>
+  <param>org.netbeans.modules.web.examples/1 [1.29.1]</param>
+  <param>org.netbeans.modules.websvc.saas.codegen.j2ee [1.21.1]</param>
+  <param>org.netbeans.modules.j2ee.kit [1.21.1]</param>
+  <param>org.netbeans.modules.findbugs.installer [1.9.1]</param>
+  <param>org.netbeans.modules.javawebstart [1.24.1]</param>
+  <param>org.netbeans.modules.java.j2sedeploy [1.4.1]</param>
+  <param>org.netbeans.modules.web.jspparser/3 [3.24.1]</param>
+  <param>org.netbeans.modules.websvc.jaxws21/1 [1.26.1]</param>
+  <param>org.netbeans.modules.php.refactoring [1.25.1]</param>
+  <param>org.netbeans.libs.elimpl/1 [1.16.1.1]</param>
+  <param>org.netbeans.modules.php.latte/1 [1.5.1]</param>
+  <param>org.netbeans.modules.profiler.heapwalker [1.95.1]</param>
+  <param>org.netbeans.modules.maven.coverage [1.16.1]</param>
+  <param>org.netbeans.modules.j2ee.metadata.model.support/1 [1.23.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.kit [1.21.1]</param>
+  <param>org.netbeans.libs.javacup/1 [1.20.1.11]</param>
+  <param>org.netbeans.modules.java.freeform/1 [1.36.1]</param>
+  <param>org.netbeans.modules.classfile/1 [1.42.1]</param>
+  <param>org.netbeans.modules.j2ee.ejbrefactoring [1.21.1]</param>
+  <param>org.netbeans.modules.php.phpdoc.documentation [0.15.1]</param>
+  <param>org.netbeans.modules.debugger.jpda.ant [1.31.1]</param>
+  <param>org.netbeans.api.debugger.jpda/2 [2.45.1]</param>
+  <param>org.netbeans.modules.web.jsf/1 [1.62.1.2]</param>
+  <param>org.netbeans.api.web.webmodule [1.34.2]</param>
+  <param>org.netbeans.modules.maven.embedder/2 [2.42.1]</param>
+  <param>org.netbeans.api.mobility [8.21.1]</param>
+  <param>org.netbeans.modules.java.api.common/0 [1.56.1]</param>
+  <param>org.netbeans.modules.hudson.php [1.13.1]</param>
+  <param>org.netbeans.modules.php.doctrine2 [1.18.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.platform [1.22.1]</param>
+  <param>org.netbeans.modules.hibernateweb [1.19.1]</param>
+  <param>org.netbeans.modules.mobility.jsr172 [1.24.1]</param>
+  <param>org.netbeans.modules.web.project [1.65.1.1]</param>
+  <param>org.netbeans.modules.whitelist [1.16.1]</param>
+  <param>org.netbeans.modules.java.hints/1 [1.73.1.15.10.1.26.1.13]</param>
+  <param>org.netbeans.modules.websvc.design [1.21.1]</param>
+  <param>org.netbeans.modules.apisupport.kit [1.24.1]</param>
+  <param>org.netbeans.modules.java.navigation/1 [1.32.1]</param>
+  <param>org.netbeans.lib.profiler.ui/1 [1.33.1]</param>
+  <param>org.netbeans.modules.i18n.form/2 [1.43.1.4.1]</param>
+  <param>org.netbeans.modules.php.api.annotation/0 [0.10.1]</param>
+  <param>org.netbeans.modules.maven.persistence/1 [1.22.1]</param>
+  <param>org.netbeans.libs.glassfish_logging/1 [1.22.1.20]</param>
+  <param>org.netbeans.modules.i18n/1 [1.46.1]</param>
+  <param>org.netbeans.modules.apisupport.paintapp [1.24.1]</param>
+  <param>org.netbeans.modules.maven.spring/1 [1.21.1]</param>
+  <param>org.netbeans.modules.java.platform/1 [1.32.1]</param>
+  <param>org.netbeans.modules.maven.graph/1 [1.25.1]</param>
+  <param>org.netbeans.libs.amazon/1 [1.7.1]</param>
+  <param>org.netbeans.modules.profiler.selector.ui/1 [1.23.1]</param>
+  <param>org.netbeans.modules.java.editor.lib/1 [1.31.1]</param>
+  <param>org.netbeans.modules.xml.jaxb.api/1 [1.20.1]</param>
+  <param>org.netbeans.modules.java.metrics [1.1.1]</param>
+  <param>org.netbeans.modules.php.samples [1.23.1]</param>
+  <param>org.netbeans.modules.websvc.owsm [1.9.1]</param>
+  <param>org.netbeans.modules.apisupport.project/1 [1.68.1]</param>
+  <param>org.netbeans.modules.php.kit [1.55.1]</param>
+  <param>org.netbeans.modules.glassfish.eecommon/0 [1.29.1.1.1]</param>
+  <param>org.netbeans.modules.projectimport.eclipse.j2se [1.21.1.46]</param>
+  <param>org.netbeans.modules.j2me.cdc.project [1.25.1]</param>
+  <param>org.netbeans.libs.nbi.engine [1.15.1]</param>
+  <param>org.netbeans.modules.websvc.saas.ui [1.21.1]</param>
+  <param>org.netbeans.modules.java.hints.declarative/1 [1.13.1.1.15.1.13]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.ojec [1.13.1]</param>
+  <param>org.netbeans.modules.maven.grammar/1 [1.37.1.1]</param>
+  <param>org.netbeans.libs.glassfish.sdk [1.23.1]</param>
+  <param>org.netbeans.modules.spellchecker.bindings.java/1 [1.23.1]</param>
+  <param>org.openide.util.enumerations [6.27.1]</param>
+  <param>org.netbeans.modules.php.api.testing/0 [0.8.1]</param>
+  <param>org.netbeans.libs.aguiswinglayout [1.21.1]</param>
+  <param>org.netbeans.modules.profiler.selector.api/1 [1.26.1]</param>
+  <param>org.netbeans.modules.apisupport.harness [1.36.1]</param>
+  <param>org.netbeans.modules.netserver [1.8.1]</param>
+  <param>org.netbeans.modules.groovy.refactoring [1.27.1]</param>
+  <param>org.netbeans.modules.web.jsf.editor [1.41.1]</param>
+  <param>org.netbeans.modules.j2ee.clientproject [1.41.1.1]</param>
+  <param>org.netbeans.modules.extbrowser.chrome [1.5.1]</param>
+  <param>org.netbeans.modules.java.hints.ui [1.9.1.1.13]</param>
+  <param>org.netbeans.modules.javafx2.editor [1.13.1.10.26]</param>
+  <param>org.netbeans.modules.websvc.saas.services.weatherbug [1.21.1]</param>
+  <param>org.netbeans.libs.jaxb/1 [1.25.1]</param>
+  <param>org.netbeans.modules.ant.debugger/1 [1.30.1.2]</param>
+  <param>org.netbeans.modules.web.webkit.tooling [1.4.1]</param>
+  <param>org.netbeans.libs.jsr223/1 [1.29.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.platform.nokias80 [1.21.1]</param>
+  <param>org.netbeans.modules.websvc.jaxws21api/1 [1.25.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.google [1.22.1]</param>
+  <param>org.netbeans.modules.java.kit [1.26.1]</param>
+  <param>org.netbeans.modules.profiler.ppoints [1.11.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.delicious [1.21.1]</param>
+  <param>org.netbeans.modules.php.code.analysis [0.5.1]</param>
+  <param>org.netbeans.modules.php.twig/1 [1.15.1]</param>
+  <param>org.netbeans.modules.svg.perseus [1.22.1]</param>
+  <param>org.netbeans.modules.websvc.saas.services.flickr [1.22.1]</param>
+  <param>org.netbeans.modules.websvc.saas.codegen.java [1.23.1]</param>
+  <param>org.netbeans.modules.groovy.grailsproject [1.38.1]</param>
+  <param>org.netbeans.modules.hudson.ant [1.20.1]</param>
+  <param>org.netbeans.modules.php.dbgp [1.32.1]</param>
+  <param>org.netbeans.modules.debugger.jpda.projects [1.27.1]</param>
+  <param>org.netbeans.modules.hudson.maven [1.22.1]</param>
+  <param>org.netbeans.modules.websvc.clientapi [1.28.1]</param>
+  <param>org.netbeans.modules.web.client.rest [1.9.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.sjmc [1.20.1]</param>
+  <param>org.netbeans.modules.javaee.specs.support/0 [1.17.1]</param>
+  <param>org.netbeans.modules.websvc.saas.codegen [1.23.1]</param>
+  <param>org.netbeans.modules.form.nb/0 [0.11.1.1.4]</param>
+  <param>org.netbeans.modules.php.api.framework/0 [0.12.1]</param>
+  <param>org.netbeans.modules.maven.refactoring [1.12.1]</param>
+  <param>org.netbeans.modules.jsp.lexer/1 [1.22.1]</param>
+  <param>org.netbeans.modules.profiler.attach/2 [2.11.1]</param>
+  <param>org.netbeans.modules.web.freeform [1.28.1]</param>
+  <param>org.netbeans.modules.javadoc/1 [1.47.1]</param>
+  <param>org.netbeans.modules.j2ee.ddloaders/1 [1.33.1.2]</param>
+  <param>org.netbeans.modules.java.debug [1.30.1.1.24.26]</param>
+  <param>org.netbeans.modules.mobility.deployment.ftpscp [1.23.1]</param>
+  <param>org.eclipse.mylyn.wikitext.confluence.core [1.8.0]</param>
+  <param>org.netbeans.modules.java.editor/1 [2.56.1.10.1.1]</param>
+  <param>org.netbeans.modules.masterfs.macosx [1.7.1]</param>
+  <param>org.netbeans.modules.websvc.websvcapi [1.27.1]</param>
+  <param>org.netbeans.modules.xml.jaxb/1 [1.23.1]</param>
+  <param>org.netbeans.modules.mobility.deployment.nokia [1.21.1]</param>
+  <param>org.netbeans.modules.j2ee.samples [1.24.1]</param>
+  <param>org.netbeans.modules.php.api.editor/0 [0.15.1]</param>
+  <param>org.netbeans.modules.php.api.executable/0 [0.19.1]</param>
+  <param>org.netbeans.modules.j2ee.api.ejbmodule [1.33.1]</param>
+  <param>org.netbeans.modules.groovy.antproject [1.5.1]</param>
+  <param>org.netbeans.modules.applemenu/1 [1.30.1]</param>
+  <param>org.netbeans.modules.groovy.support [1.31.1]</param>
+  <param>org.netbeans.modules.javaee.api [1.17.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.platform.sjmc [1.19.1]</param>
+  <param>org.netbeans.modules.spi.actions/1 [1.21.1]</param>
+  <param>org.netbeans.modules.apisupport.wizards [1.12.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.execuiimpl [1.19.1]</param>
+  <param>org.netbeans.modules.javascript.jstestdriver [1.7.1]</param>
+  <param>org.netbeans.libs.jstl/1 [2.31.1.123]</param>
+  <param>org.netbeans.lib.profiler.common/1 [1.26.1]</param>
+  <param>org.netbeans.modules.cloud.common [1.7.1]</param>
+  <param>org.netbeans.modules.j2ee.metadata/0 [1.25.1]</param>
+  <param>org.netbeans.modules.web.jsf.icefaces [1.12.1]</param>
+  <param>org.netbeans.modules.j2ee.eclipselinkmodelgen/1 [1.25.1]</param>
+  <param>org.netbeans.modules.j2ee.dd/1 [1.36.1.2]</param>
+  <param>org.netbeans.modules.web.primefaces [1.66.1]</param>
+  <param>org.netbeans.modules.websvc.restkit/0 [1.21.1]</param>
+  <param>org.netbeans.modules.profiler.j2ee/1 [1.28.1]</param>
+  <param>org.netbeans.modules.debugger.jpda.ui/1 [1.35.1]</param>
+  <param>org.netbeans.modules.mobility.deployment.sonyericsson [1.22.1]</param>
+  <param>org.netbeans.modules.projectimport.eclipse.web [1.20.1.1]</param>
+  <param>org.netbeans.modules.glassfish.common/0 [1.54.1]</param>
+  <param>org.netbeans.libs.ppawtlayout/1 [1.21.1]</param>
+  <param>org.netbeans.modules.deployment.deviceanywhere [1.21.1]</param>
+  <param>org.netbeans.modules.gsf.codecoverage [1.24.1]</param>
+  <param>org.netbeans.modules.j2ee.core.utilities/0 [1.25.1]</param>
+  <param>org.netbeans.modules.java.source.ant [1.23.1.1.26]</param>
+  <param>org.apache.tools.ant.module/3 [3.70.1.2]</param>
+  <param>org.netbeans.libs.cglib/1 [1.20.1]</param>
+  <param>org.netbeans.libs.smack [3.20.1]</param>
+  <param>org.netbeans.modules.profiler.stp [1.9.1]</param>
+  <param>org.netbeans.modules.web.core.syntax/2 [2.38.1.2.10]</param>
+  <param>org.netbeans.modules.websvc.jaxwsmodel/1 [1.26.1]</param>
+  <param>org.netbeans.modules.libs.groovy [1.1.1]</param>
+  <param>org.netbeans.modules.tomcat5/1 [1.37.1]</param>
+  <param>org.netbeans.modules.maven.osgi/1 [1.25.1]</param>
+  <param>org.netbeans.modules.websvc.jaxws.lightapi [1.18.1]</param>
+  <param>org.netbeans.modules.mobility.deployment.webdav [1.22.1]</param>
+  <param>org.netbeans.modules.maven.kit/1 [4.24.1]</param>
+  <param>org.netbeans.modules.groovy.samples [1.19.1]</param>
+  <param>org.netbeans.modules.websvc.jaxwsmodelapi/1 [1.20.1]</param>
+  <param>org.netbeans.insane/1 [1.23.1.1]</param>
+  <param>org.netbeans.modules.websvc.saas.kit [1.21.1]</param>
+  <param>org.netbeans.modules.web.javascript.debugger [1.7.1]</param>
+  <param>org.netbeans.modules.maven.search [1.25.1]</param>
+  <param>org.netbeans.modules.java.hints.declarative.test [1.10.1.1.1]</param>
+  <param>org.netbeans.modules.java.source.queries [1.11.1]</param>
+  <param>org.netbeans.libs.javacapi [8.6.1.3]</param>
+  <param>org.netbeans.libs.nbi.ant [1.16.1]</param>
+  <param>org.netbeans.modules.j2ee.persistenceapi/1 [1.27.1.1]</param>
+  <param>org.netbeans.modules.java.testrunner [1.9.1]</param>
+  <param>org.netbeans.modules.j2ee.ejbjarproject [1.48.1]</param>
+  <param>org.netbeans.modules.php.zend2 [0.7.1]</param>
+  <param>org.netbeans.modules.profiler.oql.language/0 [0.22.1]</param>
+  <param>org.netbeans.modules.websvc.jaxwsapi [1.22.1]</param>
+  <param>org.netbeans.modules.java.j2seplatform/1 [1.33.1]</param>
+  <param>org.netbeans.modules.mobility.cldcplatform.catalog [1.22.1]</param>
+  <param>org.netbeans.modules.websvc.saas.api [1.24.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.project.semc [1.21.1]</param>
+  <param>org.netbeans.modules.profiler/2 [2.14.1]</param>
+  <param>org.netbeans.modules.mobility.editor [1.28.1]</param>
+  <param>org.netbeans.modules.j2eeserver/4 [1.103.1.1]</param>
+  <param>org.netbeans.modules.websvc.metro.samples/1 [1.22.1]</param>
+  <param>org.netbeans.modules.groovy.kit [1.28.1]</param>
+  <param>org.netbeans.modules.maven.junit/1 [1.25.1]</param>
+  <param>org.netbeans.modules.javaee.beanvalidation [1.14.1]</param>
+  <param>org.netbeans.modules.php.api.documentation/0 [0.6.1]</param>
+  <param>org.netbeans.modules.mobility.antext [1.23.1]</param>
+  <param>org.netbeans.modules.profiler.api/1 [1.13.1]</param>
+  <param>org.netbeans.modules.web.clientproject.api [1.46.1]</param>
+  <param>org.netbeans.modules.debugger.jpda.visual/1 [1.9.1]</param>
+  <param>org.netbeans.modules.j2ee.ant [1.30.1.1]</param>
+  <param>org.netbeans.modules.j2me.cdc.platform.semc [1.21.1]</param>
+  <param>org.netbeans.modules.mobility.project.bridge.impl [1.20.1]</param>
+  <param>org.netbeans.modules.websvc.projectapi/0 [1.18.1]</param>
+  <param>org.netbeans.modules.maven.hints/1 [1.32.1]</param>
+  <param>org.netbeans.modules.target.iterator/1 [1.16.1]</param>
+  <param>org.netbeans.modules.php.editor [1.43.1.2]</param>
+  <param>org.netbeans.modules.web.struts/1 [1.29.1.1]</param>
+  <param>org.netbeans.modules.web.jsf.richfaces [1.24.1]</param>
+  <param>org.jdesktop.layout/1 [1.27.1]</param>
+  <param>org.netbeans.modules.servletjspapi/1 [1.27.1.25]</param>
+  <param>org.netbeans.modules.mobility.project.ant [1.19.1]</param>
+  <param>org.netbeans.modules.ant.freeform/1 [1.38.1]</param>
+  <param>org.netbeans.modules.web.beans/2 [2.10.5]</param>
+  <param>org.netbeans.modules.j2ee.dd.webservice [1.27.1]</param>
+  <param>org.netbeans.modules.web.monitor/1 [1.38.1]</param>
+  <param>org.netbeans.modules.apisupport.installer [1.16.1]</param>
+  <param>org.netbeans.modules.languages/0 [1.114.1.2]</param>
+  <param>org.netbeans.modules.j2me.cdc.platform.sun [1.21.1]</param>
+</record>
+<record>
+  <date>2013-11-15T23:10:53</date>
+  <millis>1384575053937</millis>
+  <sequence>349</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>12</thread>
+  <message>USG_INSTALLED_CLUSTERS</message>
+  <param>nb</param>
+  <param>ergonomics</param>
+  <param>ide</param>
+  <param>extide</param>
+  <param>java</param>
+  <param>apisupport</param>
+  <param>webcommon</param>
+  <param>websvccommon</param>
+  <param>enterprise</param>
+  <param>mobility</param>
+  <param>profiler</param>
+  <param>php</param>
+  <param>harness</param>
+  <param>cnd</param>
+  <param>dlight</param>
+  <param>groovy</param>
+  <param>javafx</param>
+  <param>cluster</param>
+</record>
+<record>
+  <date>2013-11-15T23:10:53</date>
+  <millis>1384575053937</millis>
+  <sequence>350</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>12</thread>
+  <message>USG_USER_INSTALLED_MODULES</message>
+</record>
+<record>
+  <date>2013-11-15T23:10:55</date>
+  <millis>1384575055757</millis>
+  <sequence>364</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>INFO</level>
+  <thread>12</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>GTK</param>
+  <param>GTK look and feel</param>
+</record>
+<record>
+  <date>2013-11-15T23:11:52</date>
+  <millis>1384575112708</millis>
+  <sequence>375</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>11</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.cnd.makeproject.MakeProject</param>
+</record>
+<record>
+  <date>2013-11-15T23:11:54</date>
+  <millis>1384575114764</millis>
+  <sequence>380</sequence>
+  <logger>org.netbeans.ui.metrics.cnd</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN_CND</message>
+  <param>MAKEFILE</param>
+  <param>GNU</param>
+  <param>GNU</param>
+  <param>LOCAL</param>
+  <param>Linux-x86</param>
+  <param>25</param>
+  <param>25</param>
+  <param>USE_CPP</param>
+  <param>NO_C</param>
+  <param>NO_FORTRAN</param>
+  <param>NO_ASM</param>
+  <param>sside</param>
+</record>
+<record>
+  <date>2013-11-15T23:11:54</date>
+  <millis>1384575114777</millis>
+  <sequence>381</sequence>
+  <logger>org.netbeans.ui.metrics.cnd</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_CND_LAUNCHERS</message>
+  <param>0</param>
+</record>
+<record>
+  <date>2013-11-15T23:17:14</date>
+  <millis>1384575434184</millis>
+  <sequence>443</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>85</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.cnd.makeproject.MakeProject</param>
+</record>
+<record>
+  <date>2013-11-15T23:17:21</date>
+  <millis>1384575441117</millis>
+  <sequence>452</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>88</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.cppgnuautotools.AutotoolsProject</param>
+</record>
+<record>
+  <date>2013-11-15T23:27:24</date>
+  <millis>1384576044322</millis>
+  <sequence>466</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>106</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.cppgnuautotools.AutotoolsProject</param>
+</record>

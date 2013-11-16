@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Project">
+            <file name="org-netbeans-modules-cppgnuautotools-ACLocalProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.ACLocalProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_ACLocalProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.ACLocalProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-netbeans-modules-cppgnuautotools-AutoConfProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.AutoConfProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_AutoConfProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.AutoConfProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-netbeans-modules-cppgnuautotools-AutoHeaderProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.AutoHeaderProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_AutoHeaderProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.AutoHeaderProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-netbeans-modules-cppgnuautotools-AutoMakeProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.AutoMakeProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_AutoMakeProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.AutoMakeProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-netbeans-modules-cppgnuautotools-CleanAutotoolsProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.CleanAutotoolsProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_CleanAutotoolsProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.CleanAutotoolsProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-netbeans-modules-cppgnuautotools-ConfigureProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.ConfigureProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_ConfigureProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.ConfigureProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-netbeans-modules-cppgnuautotools-LibtoolizeProject.instance">
+                <!--org.netbeans.modules.cppgnuautotools.LibtoolizeProject-->
+                <attr
+                    bundlevalue="org.netbeans.modules.cppgnuautotools.Bundle#CTL_LibtoolizeProject" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.cppgnuautotools.LibtoolizeProject"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/ATool16b.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="BuildProject">
+            <folder name="Autotools">
+                <file name="org-netbeans-modules-cppgnuautotools-ACLocalProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.ACLocalProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-ACLocalProject.instance"/>
+                    <attr intvalue="2" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-AutoConfProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.AutoConfProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-AutoConfProject.instance"/>
+                    <attr intvalue="5" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-AutoHeaderProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.AutoHeaderProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-AutoHeaderProject.instance"/>
+                    <attr intvalue="3" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-AutoMakeProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.AutoMakeProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-AutoMakeProject.instance"/>
+                    <attr intvalue="4" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-CleanAutotoolsProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.CleanAutotoolsProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-CleanAutotoolsProject.instance"/>
+                    <attr intvalue="8" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-CleanAutotoolsProject-separatorBefore.instance">
+                    <!--org.netbeans.modules.cppgnuautotools.CleanAutotoolsProject-->
+                    <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                    <attr intvalue="7" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-ConfigureProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.ConfigureProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-ConfigureProject.instance"/>
+                    <attr intvalue="6" name="position"/>
+                </file>
+                <file name="org-netbeans-modules-cppgnuautotools-LibtoolizeProject.shadow">
+                    <!--org.netbeans.modules.cppgnuautotools.LibtoolizeProject-->
+                    <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-cppgnuautotools-LibtoolizeProject.instance"/>
+                    <attr intvalue="1" name="position"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Project">
+            <folder name="Native">
+                <file name="CAutotoolsTPlateProject.zip" url="nbresloc:/org/netbeans/modules/cppgnuautotools/samples/CAutotoolsTPlateProject.zip">
+                    <!--org.netbeans.modules.cppgnuautotools.samples.CAutotoolsTPlateWizardIterator-->
+                    <attr boolvalue="true" name="template"/>
+                    <attr
+                        bundlevalue="org.netbeans.modules.cppgnuautotools.samples.Bundle#CAutotoolsTPlate_displayName" name="displayName"/>
+                    <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/samples/CAutotoolsTPlate.png"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/netbeans/modules/cppgnuautotools/samples/CAutotoolsTPlateDescription.html"/>
+                    <attr name="instantiatingIterator" newvalue="org.netbeans.modules.cppgnuautotools.samples.CAutotoolsTPlateWizardIterator"/>
+                    <attr boolvalue="true" name="requireProject"/>
+                </file>
+                <file name="CppAutoToolsTPlateProject.zip" url="nbresloc:/org/netbeans/modules/cppgnuautotools/samples/CppAutoToolsTPlateProject.zip">
+                    <!--org.netbeans.modules.cppgnuautotools.samples.CppAutoToolsTPlateWizardIterator-->
+                    <attr boolvalue="true" name="template"/>
+                    <attr
+                        bundlevalue="org.netbeans.modules.cppgnuautotools.samples.Bundle#CppAutoToolsTPlate_displayName" name="displayName"/>
+                    <attr name="iconBase" stringvalue="org/netbeans/modules/cppgnuautotools/samples/CppAutoToolsTPlate.png"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/netbeans/modules/cppgnuautotools/samples/CppAutoToolsTPlateDescription.html"/>
+                    <attr name="instantiatingIterator" newvalue="org.netbeans.modules.cppgnuautotools.samples.CppAutoToolsTPlateWizardIterator"/>
+                    <attr boolvalue="true" name="requireProject"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Projects">
+        <folder name="org-netbeans-modules-cnd-makeproject">
+            <folder name="Lookup">
+                <file name="org-netbeans-modules-cppgnuautotools-ServiceImpl.instance">
+                    <!--org.netbeans.modules.cppgnuautotools.ServiceImpl-->
+                    <attr
+                        methodvalue="org.netbeans.modules.projectapi.LazyLookupProviders.forProjectServiceProvider" name="instanceCreate"/>
+                    <attr name="class" stringvalue="org.netbeans.modules.cppgnuautotools.ServiceImpl"/>
+                    <attr name="service" stringvalue="org.netbeans.modules.cppgnuautotools.Service"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
