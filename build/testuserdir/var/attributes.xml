@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
 <attributes version="1.0">
-    <fileobject name="|home|derby|NetBeansProjects|GenC11">
-        <attr name="org.netbeans.spi.project.AuxiliaryConfiguration.http://www.netbeans.org/ns/projectui-open-files/2#open-files" stringvalue="&lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>&lt;group/>&lt;/open-files>"/>
+    <fileobject name="|home|derby|NetBeansProjects|CAutotoolsTPlate74A|configure">
+        <attr name="NetBeansAttrArguments" serialvalue="aced0005757200135b4c6a6176612e6c616e672e537472696e673badd256e7e91d7b4702000078700000000174005043433d2f7573722f62696e2f676363204358583d2f7573722f62696e2f672b2b2043464c4147533d222d6733202d6764776172662d322220435858464c4147533d222d6733202d6764776172662d3222"/>
+        <attr name="NetBeansAttrEnvironment" serialvalue="aced0005757200135b4c6a6176612e6c616e672e537472696e673badd256e7e91d7b4702000078700000000474000f43433d2f7573722f62696e2f6763637400104358583d2f7573722f62696e2f672b2b74001443464c4147533d2d6733202d6764776172662d32740016435858464c4147533d2d6733202d6764776172662d32"/>
+        <attr name="rundirectory" stringvalue="/home/derby/NetBeansProjects/CAutotoolsTPlate74A"/>
     </fileobject>
 </attributes>

@@ -26,6 +26,7 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
     public int m_nPermsInternal;
     public int m_nPermsInternalB;
     public int m_nTimerCounter;
+    public int m_nTimerRepeater;
     public Timer m_nTimerA;
     public Timer m_nTimerB;
     private final int m_nTypeRunnable;
@@ -49,48 +50,53 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
         m_nPermsInternal = -1;
         m_nPermsInternalB = -1;
         m_nTimerCounter = 0;
+        m_nTimerRepeater = 0;
     }
     
     @Override
     public void execute(String sResultant) {
-        m_sSelected = sResultant;
-        MakeConfiguration conf = getProjectConfigInternal();
-        HandleFilePermissions hFilePerm = new HandleFilePermissions();
-        hFilePerm.ClearAbstractOutput();
-        m_nTimerCounter = 0 ;
-        // JOptionPane.showMessageDialog(null, "ACLocal Starting timer actionPerformedOSRT m_sProjectPath: " + m_sProjectPath);
-        specificToolPerform();
-        m_nPermsInternal = hFilePerm.getAfilePermissions(m_sAbsPath, context, conf);
-        int delay = AUTOTOOLS_TIMER_DELAY; //milliseconds
-        ActionListener taskPerformer = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent evt) {
-                //...Perform a task...
-                // if (m_Conf != null) {
-                    specificTimerToolPerform();
-                    if (m_nPermsInternal == 2)
-                    {
-                        m_nTimerCounter++;
-                        if (m_nTimerCounter >= 10)
+        if (m_nTimerRepeater < 10) {
+            m_sSelected = sResultant;
+            MakeConfiguration conf = getProjectConfigInternal();
+            HandleFilePermissions hFilePerm = new HandleFilePermissions();
+            hFilePerm.ClearAbstractOutput();
+            m_nTimerCounter = 0 ;
+            // JOptionPane.showMessageDialog(null, "ACLocal Starting timer actionPerformedOSRT m_sProjectPath: " + m_sProjectPath);
+            specificToolPerform();
+            m_nPermsInternal = hFilePerm.getAfilePermissions(m_sAbsPath, context, conf);
+            int delay = AUTOTOOLS_TIMER_DELAY; //milliseconds
+            ActionListener taskPerformer = new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent evt) {
+                    //...Perform a task...
+                    // if (m_Conf != null) {
+                        specificTimerToolPerform();
+                        if (m_nPermsInternal == 2)
                         {
-                            if (m_nTimerB != null) m_nTimerB.stop();
-                            m_nTimerB = null;
-                            if (m_nTimerA != null) m_nTimerA.stop();
-                            m_nTimerA = null;
-                            // JOptionPane.showMessageDialog(null, "Timer timed out.  Not running AutoTools Action!");
+                            m_nTimerCounter++;
+                            if (m_nTimerCounter >= 10)
+                            {
+                                if (m_nTimerB != null) m_nTimerB.stop();
+                                m_nTimerB = null;
+                                if (m_nTimerA != null) m_nTimerA.stop();
+                                m_nTimerA = null;
+                                // JOptionPane.showMessageDialog(null, "Timer timed out.  Not running AutoTools Action!");
+                            }
                         }
-                    }
-                // }
+                    // }
+                }
+            };
+            // JOptionPane.showMessageDialog(null, "===> m_nPermsInternal returns " + m_nPermsInternal);
+            if (m_nPermsInternal == 2)
+            {
+                if (m_nTimerB != null) m_nTimerB.stop();
+                m_nTimerB = null;
+                m_nTimerA = new Timer(delay, taskPerformer);
+                m_nTimerA.start();
+                // JOptionPane.showMessageDialog(null, "ACLocal Starting timer");
             }
-        };
-        // JOptionPane.showMessageDialog(null, "===> m_nPermsInternal returns " + m_nPermsInternal);
-        if (m_nPermsInternal == 2)
-        {
-            if (m_nTimerB != null) m_nTimerB.stop();
-            m_nTimerB = null;
-            m_nTimerA = new Timer(delay, taskPerformer);
-            m_nTimerA.start();
-            // JOptionPane.showMessageDialog(null, "ACLocal Starting timer");
+        } else {
+            JOptionPane.showMessageDialog(null, "This action has been tried 10 times and failed.  Stopping.");
         }
     }
 
@@ -194,11 +200,17 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
         // if (conf != null) {
             if (m_nPermsInternal == 0)
             {
-                JOptionPane.showMessageDialog(null, "Netbeans Autotools Plugin failed to change permissions on file!");
-                if (m_nTimerA != null) m_nTimerA.stop();
-                m_nTimerA = null;
-                m_nTimerB.stop();
-                m_nTimerB = null;
+                if (m_nTimerRepeater < 10) {
+                    /** Try 10 times before giving up and firing message to user. */
+                    m_nTimerRepeater++;
+                    if (m_nTimerA != null) m_nTimerA.stop();
+                    m_nTimerA = null;
+                    m_nTimerB.stop();
+                    m_nTimerB = null;
+                    execute(m_sSelected);
+                } else {
+                    JOptionPane.showMessageDialog(null, "Netbeans Autotools Plugin failed to change permissions on file! Please Run this command again!");
+                }
             }
             else if (m_nPermsInternal == 1)
             {

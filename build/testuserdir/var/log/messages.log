@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
->Log Session: Friday, November 15, 2013 11:10:44 PM EST
+>Log Session: Saturday, November 16, 2013 5:15:48 PM EST
 >System Info: 
-  Product Version         = NetBeans IDE 7.4 RC1 (Build 201309162201) (#36a0a5c713b8)
+  Product Version         = NetBeans IDE 7.4 (Build 201310111528) (#6523d6792981)
   Operating System        = Linux version 3.8.0-33-generic running on i386
   Java; VM; Vendor        = 1.7.0_40; Java HotSpot(TM) Client VM 24.0-b56; Oracle Corporation
   Runtime                 = Java(TM) SE Runtime Environment 1.7.0_40-b43
@@ -11,354 +11,325 @@
   Current Directory       = /home/derby/workspace/NetbeansProjects/CppGnuAutoTools
   User Directory          = /home/derby/workspace/NetbeansProjects/CppGnuAutoTools/build/testuserdir
   Cache Directory         = /home/derby/workspace/NetbeansProjects/CppGnuAutoTools/build/testuserdir/var/cache
-  Installation            = /home/derby/netbeans-7.4rc1/nb
-                            /home/derby/netbeans-7.4rc1/ergonomics
-                            /home/derby/netbeans-7.4rc1/ide
-                            /home/derby/netbeans-7.4rc1/extide
-                            /home/derby/netbeans-7.4rc1/java
-                            /home/derby/netbeans-7.4rc1/apisupport
-                            /home/derby/netbeans-7.4rc1/webcommon
-                            /home/derby/netbeans-7.4rc1/websvccommon
-                            /home/derby/netbeans-7.4rc1/enterprise
-                            /home/derby/netbeans-7.4rc1/mobility
-                            /home/derby/netbeans-7.4rc1/profiler
-                            /home/derby/netbeans-7.4rc1/php
-                            /home/derby/netbeans-7.4rc1/harness
-                            /home/derby/netbeans-7.4rc1/cnd
-                            /home/derby/netbeans-7.4rc1/dlight
-                            /home/derby/netbeans-7.4rc1/groovy
-                            /home/derby/netbeans-7.4rc1/javafx
+  Installation            = /home/derby/Public/netbeans-7.4/nb
+                            /home/derby/Public/netbeans-7.4/ergonomics
+                            /home/derby/Public/netbeans-7.4/ide
+                            /home/derby/Public/netbeans-7.4/extide
+                            /home/derby/Public/netbeans-7.4/java
+                            /home/derby/Public/netbeans-7.4/apisupport
+                            /home/derby/Public/netbeans-7.4/webcommon
+                            /home/derby/Public/netbeans-7.4/websvccommon
+                            /home/derby/Public/netbeans-7.4/enterprise
+                            /home/derby/Public/netbeans-7.4/mobility
+                            /home/derby/Public/netbeans-7.4/profiler
+                            /home/derby/Public/netbeans-7.4/php
+                            /home/derby/Public/netbeans-7.4/harness
+                            /home/derby/Public/netbeans-7.4/cnd
+                            /home/derby/Public/netbeans-7.4/dlight
+                            /home/derby/Public/netbeans-7.4/groovy
+                            /home/derby/Public/netbeans-7.4/javafx
                             /home/derby/workspace/NetbeansProjects/CppGnuAutoTools/build/cluster
-                            /home/derby/netbeans-7.4rc1/platform
+                            /home/derby/Public/netbeans-7.4/platform
   Boot & Ext. Classpath   = /usr/lib/jvm/jdk1.7.0/jre/lib/resources.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/rt.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/jce.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.7.0/jre/classes:/usr/lib/jvm/jdk1.7.0/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/ext/sunec.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/ext/zipfs.jar
-  Application Classpath   = /home/derby/netbeans-7.4rc1/platform/lib/boot.jar:/home/derby/netbeans-7.4rc1/platform/lib/org-openide-modules.jar:/home/derby/netbeans-7.4rc1/platform/lib/org-openide-util.jar:/home/derby/netbeans-7.4rc1/platform/lib/org-openide-util-lookup.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/boot_ja.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/boot_pt_BR.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/boot_ru.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/boot_zh_CN.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-modules_ja.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-modules_pt_BR.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-modules_ru.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-modules_zh_CN.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util_ja.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util-lookup_ja.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util-lookup_ru.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util_pt_BR.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util_ru.jar:/home/derby/netbeans-7.4rc1/platform/lib/locale/org-openide-util_zh_CN.jar:/usr/lib/jvm/jdk1.7.0/lib/dt.jar:/usr/lib/jvm/jdk1.7.0/lib/tools.jar
-  Startup Classpath       = /home/derby/netbeans-7.4rc1/platform/core/core.jar:/home/derby/netbeans-7.4rc1/platform/core/org-openide-filesystems.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/org-openide-filesystems_ru.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/org-openide-filesystems_ja.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/core_pt_BR.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/org-openide-filesystems_pt_BR.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/core_ja.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/core_zh_CN.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/org-openide-filesystems_zh_CN.jar:/home/derby/netbeans-7.4rc1/platform/core/locale/core_ru.jar:/home/derby/netbeans-7.4rc1/nb/core/org-netbeans-upgrader.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/core_nb_ru.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/org-netbeans-upgrader_ja.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/core_nb_zh_CN.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/org-netbeans-upgrader_ru.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/core_nb_ja.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/core_nb.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/home/derby/netbeans-7.4rc1/nb/core/locale/core_nb_pt_BR.jar
+  Application Classpath   = /home/derby/Public/netbeans-7.4/platform/lib/boot.jar:/home/derby/Public/netbeans-7.4/platform/lib/org-openide-modules.jar:/home/derby/Public/netbeans-7.4/platform/lib/org-openide-util.jar:/home/derby/Public/netbeans-7.4/platform/lib/org-openide-util-lookup.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/boot_ja.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/boot_pt_BR.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/boot_ru.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/boot_zh_CN.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-modules_ja.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-modules_pt_BR.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-modules_ru.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-modules_zh_CN.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util_ja.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util-lookup_ja.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util-lookup_ru.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util_pt_BR.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util_ru.jar:/home/derby/Public/netbeans-7.4/platform/lib/locale/org-openide-util_zh_CN.jar:/usr/lib/jvm/jdk1.7.0/lib/dt.jar:/usr/lib/jvm/jdk1.7.0/lib/tools.jar
+  Startup Classpath       = /home/derby/Public/netbeans-7.4/platform/core/core.jar:/home/derby/Public/netbeans-7.4/platform/core/org-openide-filesystems.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/org-openide-filesystems_ru.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/org-openide-filesystems_ja.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/core_pt_BR.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/org-openide-filesystems_pt_BR.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/core_ja.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/core_zh_CN.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/org-openide-filesystems_zh_CN.jar:/home/derby/Public/netbeans-7.4/platform/core/locale/core_ru.jar:/home/derby/Public/netbeans-7.4/nb/core/org-netbeans-upgrader.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/core_nb_ru.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/org-netbeans-upgrader_ja.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/core_nb_zh_CN.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/org-netbeans-upgrader_ru.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/core_nb_ja.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/core_nb.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/home/derby/Public/netbeans-7.4/nb/core/locale/core_nb_pt_BR.jar
 -------------------------------------------------------------------------------
 INFO [org.netbeans.modules.netbinox]: Install area set to file:/home/derby/
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
 WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up build_info at org.netbeans.modules.uihandler.BuildInfo.logBuildInfo(BuildInfo.java:84)
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
-	org.openide.util.lookup [8.22.1 201309162201]
-	org.openide.util [8.33.1 201309162201]
-	org.openide.modules [7.39.1 201309162201]
-	org.openide.filesystems [8.8.1 201309162201]
-	org.netbeans.api.annotations.common/1 [1.21.1 201309162201]
-	org.openide.awt [7.59.1 201309162201]
-	org.netbeans.api.progress/1 [1.35.1 201309162201]
-	org.openide.dialogs [7.32.1 201309162201]
-	org.openide.nodes [7.36.1 201309162201]
-	org.openide.windows [6.65.1 201309162201]
-	org.netbeans.modules.editor.mimelookup/1 [1.33.1 201309162201]
-	org.openide.text [6.58.1 201309162201]
-	org.netbeans.swing.tabcontrol [1.46.1 201309162201]
-	org.netbeans.swing.outline [1.27.1 201309162201]
-	org.openide.explorer [6.53.1 201309162201]
-	org.openide.actions [6.32.1 201309162201]
-	org.netbeans.modules.queries/1 [1.36.1 201309162201]
-	org.openide.loaders [7.51.1 201309162201]
-	org.openide.io [1.42.1 201309162201]
-	org.openide.execution [1.33.1 201309162201]
-	org.netbeans.upgrader [4.28.1 201309162201]
-	org.netbeans.swing.plaf [1.34.1 201309162201]
-	org.netbeans.modules.projectapi/1 [1.54.1 201309162201]
-	org.netbeans.swing.dirchooser [1.22.1 201309162201]
-	org.netbeans.spi.viewmodel/2 [1.43.1 201309162201]
-	org.netbeans.spi.tasklist/1 [1.27.1.1 1 201309162201]
-	org.netbeans.spi.quicksearch [1.20.1 201309162201]
-	org.netbeans.spi.palette/1 [1.38.1 201309162201]
-	org.netbeans.spi.navigator/1 [1.30.1 201309162201]
-	org.netbeans.modules.projectuiapi/1 [1.72.1.8 8 201309162201]
-	org.netbeans.modules.editor.settings/1 [1.49.1 201309162201]
-	org.netbeans.bootstrap/1 [2.63.1 201309162201]
-	org.netbeans.core.startup/1 [1.51.1 201309162201]
-	org.netbeans.modules.sampler [1.7.1 201309162201]
-	org.netbeans.modules.keyring [1.17.1 201309162201]
-	org.netbeans.core/2 [3.43.1 201309162201]
-	org.netbeans.modules.options.api/1 [1.36.1 201309162201]
-	org.netbeans.modules.editor.util/1 [1.55.1 201309162201]
-	org.netbeans.modules.lexer/2 [1.53.1.1 1 201309162201]
-	org.netbeans.modules.editor.lib2/1 [1.81.1.43 43 201309162201]
-	org.netbeans.modules.options.keymap [1.28.1 201309162201]
-	org.netbeans.modules.editor.settings.storage/1 [1.41.1 201309162201]
-	org.netbeans.modules.editor.fold/1 [1.37.1 201309162201]
-	org.netbeans.modules.editor.indent/2 [1.34.1 201309162201]
-	org.netbeans.modules.editor.lib/3 [3.46.1.22.43 22 201309162201]
-	org.netbeans.modules.editor.tools.storage [1.1.1 201309162201]
-	org.netbeans.modules.editor.fold.nbui [1.4.1.43 201309162201]
-	org.netbeans.modules.editor/3 [1.75.1.5.22.43 5 201309162201]
-	org.netbeans.modules.options.editor/1 [1.45.1 201309162201]
-	org.netbeans.spi.editor.hints/0 [1.32.1.7.43 7 201309162201]
-	org.netbeans.spi.editor.hints.projects [1.4.1.1.7 1 201309162201]
-	org.netbeans.api.debugger/1 [1.43.1 201309162201]
-	org.netbeans.spi.debugger.ui/1 [2.40.1 201309162201]
-	org.netbeans.api.xml/1 [1.36.1 201309162201]
-	org.netbeans.modules.xml.core/2 [1.36.1.4 4 201309162201]
-	org.netbeans.modules.editor.errorstripe.api/1 [2.26.1.1 1 201309162201]
-	org.netbeans.modules.editor.errorstripe/2 [2.27.1.1.1 1 201309162201]
-	org.netbeans.modules.diff/1 [1.44.1.42.1 42 201309162201]
-	org.netbeans.modules.editor.completion/1 [1.36.1.2 2 201309162201]
-	org.netbeans.modules.editor.codetemplates/1 [1.35.1.1 1 201309162201]
-	org.netbeans.modules.editor.actions/1 [1.23.1.43 201309162201]
-	org.netbeans.core.ui/1 [1.38.1 201309162201]
-	org.netbeans.modules.project.indexingbridge [1.10.1 201309162201]
-	org.netbeans.api.java.classpath/1 [1.39.1 201309162201]
-	org.netbeans.libs.lucene/3 [3.13.1 201309162201]
-	org.netbeans.modules.masterfs/2 [2.44.1 201309162201]
-	org.netbeans.modules.parsing.lucene/2 [2.25.1.1 1 201309162201]
-	org.netbeans.modules.parsing.api/1 [1.69.1.8 8 201309162201]
-	org.netbeans.api.search [1.14.1 201309162201]
-	org.netbeans.modules.jumpto/1 [1.39.1.1 1 201309162201]
-	org.netbeans.modules.editor.guards/1 [1.23.1 201309162201]
-	org.netbeans.modules.refactoring.api [1.37.1.1 1 201309162201]
-	org.netbeans.modules.editor.breadcrumbs/0 [1.9.1 201309162201]
-	org.netbeans.core.multiview/1 [1.36.1 201309162201]
-	org.netbeans.modules.csl.api/2 [2.42.1.2.1.1.8 2 201309162201]
-	org.netbeans.modules.xml.lexer [1.23.1 201309162201]
-	org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.20.1.1.5.22.43 1 201309162201]
-	org.netbeans.modules.editor.structure/1 [1.40.1.1 1 201309162201]
-	org.netbeans.modules.editor.bracesmatching/0 [1.31.1.43 201309162201]
-	org.netbeans.modules.xml.text/2 [1.41.1 201309162201]
-	org.netbeans.modules.xml.xam/1 [1.25.1.1 1 201309162201]
-	org.netbeans.modules.xml.schema.model/1 [1.25.1.1 1 201309162201]
-	org.netbeans.modules.xml.axi [1.24.1 201309162201]
-	org.apache.xml.resolver [1.25.1.12 12 201309162201]
-	org.netbeans.modules.xml.retriever/1 [1.24.1 201309162201]
-	org.netbeans.modules.xml [1.24.1 201309162201]
-	org.netbeans.modules.servletapi/1 [1.33.1 201309162201]
-	org.netbeans.modules.httpserver/2 [2.29.1.42 42 201309162201]
-	org.netbeans.modules.xsl/1 [1.36.1 201309162201]
-	org.netbeans.modules.xml.xdm/1 [1.26.1.1 1 201309162201]
-	org.netbeans.libs.xerces/1 [1.32.1.281 281 201309162201]
-	org.netbeans.modules.xml.tax/2 [1.36.1.281 201309162201]
-	org.netbeans.modules.xml.tools/2 [1.36.1 201309162201]
-	org.netbeans.modules.xml.schema.completion [1.23.1 201309162201]
-	org.netbeans.modules.xml.catalog/2 [1.34.1.4 4 201309162201]
-	org.netbeans.modules.sendopts/2 [2.28.1 201309162201]
-	org.netbeans.core.execution/1 [1.34.1 201309162201]
-	org.netbeans.modules.favorites/1 [1.36.1 201309162201]
-	org.netbeans.modules.projectui [1.47.1.8 201309162201]
-	org.netbeans.modules.welcome/1 [1.35.1 201309162201]
-	org.netbeans.libs.json_simple/1 [0.6.1 201309162201]
-	org.netbeans.modules.web.webkit.debugging [1.29.1 201309162201]
-	org.netbeans.modules.web.common [1.59.1 201309162201]
-	org.netbeans.modules.web.indent [1.12.1 201309162201]
-	org.netbeans.modules.settings/1 [1.42.1 201309162201]
-	org.netbeans.core.windows/2 [2.66.1 201309162201]
-	org.netbeans.modules.extexecution/2 [1.39.1 201309162201]
-	org.netbeans.modules.extbrowser/1 [1.44.1 201309162201]
-	org.netbeans.modules.web.browser.api [1.34.1 201309162201]
-	org.netbeans.modules.spellchecker.apimodule [1.18.1 201309162201]
-	org.netbeans.modules.versioning.core/1 [1.17.2.1.42 1 201309162201]
-	org.netbeans.modules.versioning/1 [1.40.1.1 1 201309162201]
-	org.netbeans.modules.versioning.util [1.50.1.42.1 201309162201]
-	org.netbeans.modules.versioning.ui/1 [1.13.1.42.1 201309162201]
-	org.netbeans.modules.autoupdate.services [1.42.1 201309162201]
-	org.netbeans.modules.autoupdate.ui [1.38.1 201309162201]
-	org.netbeans.modules.versioning.system.cvss.installer [1.9.1 201309162201]
-	org.netbeans.modules.versioning.masterfs [1.7.1 201309162201]
-	org.netbeans.modules.versioning.indexingbridge/0 [1.18.1 201309162201]
-	org.netbeans.modules.utilities/1 [1.51.1 201309162201]
-	org.netbeans.modules.utilities.project/1 [1.30.1 201309162201]
-	org.netbeans.modules.javahelp/1 [2.34.1 201309162201]
-	org.netbeans.modules.usersguide/1 [1.42.1 201309162201]
-	org.netbeans.modules.updatecenters/1 [1.33.1 201309162201]
-	org.netbeans.lib.uihandler [1.38.1 201309162201]
-	org.netbeans.modules.uihandler [2.28.1 201309162201]
-	org.netbeans.modules.uihandler.exceptionreporter [1.22.1 201309162201]
-	org.netbeans.lib.terminalemulator [1.27.1 201309162201]
-	org.netbeans.modules.terminal [1.16.1 201309162201]
-	org.netbeans.libs.swingx/1 [1.21.1 201309162201]
-	org.netbeans.modules.team.commons [1.18.1 201309162201]
-	org.netbeans.modules.team.ide [1.1.1 201309162201]
-	org.netbeans.modules.tasklist.ui/1 [1.24.1.1.1 1 201309162201]
-	org.netbeans.modules.tasklist.todo/1 [1.24.1.1 1 201309162201]
-	org.netbeans.modules.tasklist.projectint/1 [1.22.1 201309162201]
-	org.netbeans.modules.tasklist.kit [1.22.1 201309162201]
-	org.netbeans.libs.svnClientAdapter/1 [1.32.1 201309162201]
-	org.netbeans.libs.ini4j/1 [1.24.1 201309162201]
-	org.netbeans.modules.subversion [1.32.1.42.1 201309162201]
-	org.netbeans.modules.editor.plain.lib/1 [1.27.1 201309162201]
-	org.netbeans.modules.spellchecker [1.28.1.1.7 1 201309162201]
-	org.netbeans.modules.spellchecker.kit [1.19.1 201309162201]
-	org.netbeans.modules.spellchecker.dictionary_en [1.16.1 201309162201]
-	org.netbeans.modules.properties/1 [1.47.1 201309162201]
-	org.netbeans.modules.properties.syntax/1 [1.43.1 201309162201]
-	org.netbeans.modules.spellchecker.bindings.properties [1.15.1 201309162201]
-	org.netbeans.modules.html.lexer/1 [1.30.1 201309162201]
-	org.netbeans.modules.spellchecker.bindings.htmlxml [1.20.1 201309162201]
-	org.netbeans.core.ide/1 [1.34.1 201309162201]
-	org.netbeans.modules.server/0 [1.26.1 201309162201]
-	org.netbeans.modules.dlight.libs.common [1.29.1.1 1 201309162201]
+	org.openide.util.lookup [8.22.1 201310111528]
+	org.openide.util [8.33.1 201310111528]
+	org.openide.modules [7.39.1 201310111528]
+	org.openide.filesystems [8.8.1 201310111528]
+	org.netbeans.api.annotations.common/1 [1.21.1 201310111528]
+	org.openide.awt [7.59.1 201310111528]
+	org.netbeans.api.progress/1 [1.35.1 201310111528]
+	org.openide.dialogs [7.32.1 201310111528]
+	org.openide.nodes [7.36.1 201310111528]
+	org.openide.windows [6.65.1 201310111528]
+	org.netbeans.modules.editor.mimelookup/1 [1.33.1 201310111528]
+	org.openide.text [6.58.1 201310111528]
+	org.netbeans.swing.tabcontrol [1.46.1 201310111528]
+	org.netbeans.swing.outline [1.27.1 201310111528]
+	org.openide.explorer [6.53.1 201310111528]
+	org.openide.actions [6.32.1 201310111528]
+	org.netbeans.modules.queries/1 [1.36.1 201310111528]
+	org.openide.loaders [7.51.1 201310111528]
+	org.openide.io [1.42.1 201310111528]
+	org.openide.execution [1.33.1 201310111528]
+	org.netbeans.upgrader [4.28.1 201310111528]
+	org.netbeans.swing.plaf [1.34.1 201310111528]
+	org.netbeans.modules.projectapi/1 [1.54.1 201310111528]
+	org.netbeans.swing.dirchooser [1.22.1 201310111528]
+	org.netbeans.spi.viewmodel/2 [1.43.1 201310111528]
+	org.netbeans.spi.tasklist/1 [1.27.1.1 1 201310111528]
+	org.netbeans.spi.quicksearch [1.20.1 201310111528]
+	org.netbeans.spi.palette/1 [1.38.1 201310111528]
+	org.netbeans.spi.navigator/1 [1.30.1 201310111528]
+	org.netbeans.modules.projectuiapi/1 [1.72.1.8 8 201310111528]
+	org.netbeans.modules.editor.settings/1 [1.49.1 201310111528]
+	org.netbeans.bootstrap/1 [2.63.1 201310111528]
+	org.netbeans.core.startup/1 [1.51.1 201310111528]
+	org.netbeans.modules.sampler [1.7.1 201310111528]
+	org.netbeans.modules.keyring [1.17.1 201310111528]
+	org.netbeans.core/2 [3.43.1 201310111528]
+	org.netbeans.modules.options.api/1 [1.36.1 201310111528]
+	org.netbeans.modules.editor.util/1 [1.55.1 201310111528]
+	org.netbeans.modules.lexer/2 [1.53.1.1 1 201310111528]
+	org.netbeans.modules.editor.lib2/1 [1.81.1.43 43 201310111528]
+	org.netbeans.modules.options.keymap [1.28.1 201310111528]
+	org.netbeans.modules.editor.settings.storage/1 [1.41.1 201310111528]
+	org.netbeans.modules.editor.fold/1 [1.37.1 201310111528]
+	org.netbeans.modules.editor.indent/2 [1.34.1 201310111528]
+	org.netbeans.modules.editor.lib/3 [3.46.1.22.43 22 201310111528]
+	org.netbeans.modules.editor.tools.storage [1.1.1 201310111528]
+	org.netbeans.modules.editor.fold.nbui [1.4.1.43 201310111528]
+	org.netbeans.modules.editor/3 [1.75.1.5.22.43 5 201310111528]
+	org.netbeans.modules.options.editor/1 [1.45.1 201310111528]
+	org.netbeans.spi.editor.hints/0 [1.32.1.7.43 7 201310111528]
+	org.netbeans.spi.editor.hints.projects [1.4.1.1.7 1 201310111528]
+	org.netbeans.api.debugger/1 [1.43.1 201310111528]
+	org.netbeans.spi.debugger.ui/1 [2.40.1 201310111528]
+	org.netbeans.api.xml/1 [1.36.1 201310111528]
+	org.netbeans.modules.xml.core/2 [1.36.1.4 4 201310111528]
+	org.netbeans.modules.editor.errorstripe.api/1 [2.26.1.1 1 201310111528]
+	org.netbeans.modules.editor.errorstripe/2 [2.27.1.1.1 1 201310111528]
+	org.netbeans.modules.diff/1 [1.44.1.42.1 42 201310111528]
+	org.netbeans.modules.editor.completion/1 [1.36.1.2 2 201310111528]
+	org.netbeans.modules.editor.codetemplates/1 [1.35.1.1 1 201310111528]
+	org.netbeans.modules.editor.actions/1 [1.23.1.43 201310111528]
+	org.netbeans.core.ui/1 [1.38.1 201310111528]
+	org.netbeans.modules.project.indexingbridge [1.10.1 201310111528]
+	org.netbeans.api.java.classpath/1 [1.39.1 201310111528]
+	org.netbeans.libs.lucene/3 [3.13.1 201310111528]
+	org.netbeans.modules.masterfs/2 [2.44.1 201310111528]
+	org.netbeans.modules.parsing.lucene/2 [2.25.1.1 1 201310111528]
+	org.netbeans.modules.parsing.api/1 [1.69.1.8 8 201310111528]
+	org.netbeans.api.search [1.14.1 201310111528]
+	org.netbeans.modules.jumpto/1 [1.39.1.1 1 201310111528]
+	org.netbeans.modules.editor.guards/1 [1.23.1 201310111528]
+	org.netbeans.modules.refactoring.api [1.37.1.1 1 201310111528]
+	org.netbeans.modules.editor.breadcrumbs/0 [1.9.1 201310111528]
+	org.netbeans.core.multiview/1 [1.36.1 201310111528]
+	org.netbeans.modules.csl.api/2 [2.42.1.2.1.1.8 2 201310111528]
+	org.netbeans.modules.xml.lexer [1.23.1 201310111528]
+	org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.20.1.1.5.22.43 1 201310111528]
+	org.netbeans.modules.editor.structure/1 [1.40.1.1 1 201310111528]
+	org.netbeans.modules.editor.bracesmatching/0 [1.31.1.43 201310111528]
+	org.netbeans.modules.xml.text/2 [1.41.1 201310111528]
+	org.netbeans.modules.xml.xam/1 [1.25.1.1 1 201310111528]
+	org.netbeans.modules.xml.schema.model/1 [1.25.1.1 1 201310111528]
+	org.netbeans.modules.xml.axi [1.24.1 201310111528]
+	org.apache.xml.resolver [1.25.1.12 12 201310111528]
+	org.netbeans.modules.xml.retriever/1 [1.24.1 201310111528]
+	org.netbeans.modules.xml [1.24.1 201310111528]
+	org.netbeans.modules.servletapi/1 [1.33.1 201310111528]
+	org.netbeans.modules.httpserver/2 [2.29.1.42 42 201310111528]
+	org.netbeans.modules.xsl/1 [1.36.1 201310111528]
+	org.netbeans.modules.xml.xdm/1 [1.26.1.1 1 201310111528]
+	org.netbeans.libs.xerces/1 [1.32.1.281 281 201310111528]
+	org.netbeans.modules.xml.tax/2 [1.36.1.281 201310111528]
+	org.netbeans.modules.xml.tools/2 [1.36.1 201310111528]
+	org.netbeans.modules.xml.schema.completion [1.23.1 201310111528]
+	org.netbeans.modules.xml.catalog/2 [1.34.1.4 4 201310111528]
+	org.netbeans.modules.sendopts/2 [2.28.1 201310111528]
+	org.netbeans.core.execution/1 [1.34.1 201310111528]
+	org.netbeans.modules.favorites/1 [1.36.1 201310111528]
+	org.netbeans.modules.projectui [1.47.1.8 201310111528]
+	org.netbeans.modules.welcome/1 [1.35.1 201310111528]
+	org.netbeans.libs.json_simple/1 [0.6.1 201310111528]
+	org.netbeans.modules.web.webkit.debugging [1.29.1 201310111528]
+	org.netbeans.modules.web.common [1.59.1 201310111528]
+	org.netbeans.modules.web.indent [1.12.1 201310111528]
+	org.netbeans.modules.settings/1 [1.42.1 201310111528]
+	org.netbeans.core.windows/2 [2.66.1 201310111528]
+	org.netbeans.modules.extexecution/2 [1.39.1 201310111528]
+	org.netbeans.modules.extbrowser/1 [1.44.1 201310111528]
+	org.netbeans.modules.web.browser.api [1.34.1 201310111528]
+	org.netbeans.modules.spellchecker.apimodule [1.18.1 201310111528]
+	org.netbeans.modules.versioning.core/1 [1.17.2.1.42 1 201310111528]
+	org.netbeans.modules.versioning/1 [1.40.1.1 1 201310111528]
+	org.netbeans.modules.versioning.util [1.50.1.42.1 201310111528]
+	org.netbeans.modules.versioning.ui/1 [1.13.1.42.1 201310111528]
+	org.netbeans.modules.autoupdate.services [1.42.1 201310111528]
+	org.netbeans.modules.autoupdate.ui [1.38.1 201310111528]
+	org.netbeans.modules.versioning.system.cvss.installer [1.9.1 201310111528]
+	org.netbeans.modules.versioning.masterfs [1.7.1 201310111528]
+	org.netbeans.modules.versioning.indexingbridge/0 [1.18.1 201310111528]
+	org.netbeans.modules.utilities/1 [1.51.1 201310111528]
+	org.netbeans.modules.utilities.project/1 [1.30.1 201310111528]
+	org.netbeans.modules.javahelp/1 [2.34.1 201310111528]
+	org.netbeans.modules.usersguide/1 [1.42.1 201310111528]
+	org.netbeans.modules.updatecenters/1 [1.33.1 201310111528]
+	org.netbeans.lib.uihandler [1.38.1 201310111528]
+	org.netbeans.modules.uihandler [2.28.1 201310111528]
+	org.netbeans.modules.uihandler.exceptionreporter [1.22.1 201310111528]
+	org.netbeans.lib.terminalemulator [1.27.1 201310111528]
+	org.netbeans.modules.terminal [1.16.1 201310111528]
+	org.netbeans.libs.swingx/1 [1.21.1 201310111528]
+	org.netbeans.modules.team.commons [1.18.1 201310111528]
+	org.netbeans.modules.team.ide [1.1.1 201310111528]
+	org.netbeans.modules.tasklist.ui/1 [1.24.1.1.1 1 201310111528]
+	org.netbeans.modules.tasklist.todo/1 [1.24.1.1 1 201310111528]
+	org.netbeans.modules.tasklist.projectint/1 [1.22.1 201310111528]
+	org.netbeans.modules.tasklist.kit [1.22.1 201310111528]
+	org.netbeans.libs.svnClientAdapter/1 [1.32.1 201310111528]
+	org.netbeans.libs.ini4j/1 [1.24.1 201310111528]
+	org.netbeans.modules.subversion [1.32.1.42.1 201310111528]
+	org.netbeans.modules.editor.plain.lib/1 [1.27.1 201310111528]
+	org.netbeans.modules.spellchecker [1.28.1.1.7 1 201310111528]
+	org.netbeans.modules.spellchecker.kit [1.19.1 201310111528]
+	org.netbeans.modules.spellchecker.dictionary_en [1.16.1 201310111528]
+	org.netbeans.modules.properties/1 [1.47.1 201310111528]
+	org.netbeans.modules.properties.syntax/1 [1.43.1 201310111528]
+	org.netbeans.modules.spellchecker.bindings.properties [1.15.1 201310111528]
+	org.netbeans.modules.html.lexer/1 [1.30.1 201310111528]
+	org.netbeans.modules.spellchecker.bindings.htmlxml [1.20.1 201310111528]
+	org.netbeans.core.ide/1 [1.34.1 201310111528]
+	org.netbeans.modules.server/0 [1.26.1 201310111528]
+	org.netbeans.modules.dlight.libs.common [1.29.1.1 1 201310111528]
 	com.jcraft.jsch [0.1.49 0.1.49]
-	org.netbeans.libs.jna/1 [1.31.1 201309162201]
-	org.netbeans.modules.dlight.nativeexecution [1.30.4.1 1 201309162201]
-	org.netbeans.modules.dlight.remote [1.22.3.1 1 201309162201]
-	org.netbeans.modules.dlight.remote.impl [1.20.2.1 1 201309162201]
-	org.netbeans.modules.remotefs.versioning [1.8.1.1 1 201309162201]
-	org.netbeans.modules.projectui.buildmenu/1 [1.20.1.1 1 201309162201]
-	org.netbeans.modules.project.libraries/1 [1.44.1 201309162201]
-	org.netbeans.modules.project.ant/1 [1.56.1 201309162201]
-	org.netbeans.modules.progress.ui [1.26.1 201309162201]
-	org.netbeans.modules.print.editor [7.20.1 201309162201]
-	org.netbeans.modules.print [7.19.1 201309162201]
-	org.netbeans.modules.parsing.ui [1.7.1 201309162201]
-	org.netbeans.modules.notifications [1.1.1 201309162201]
-	org.netbeans.libs.osgi [1.15.1 201309162201]
-	org.netbeans.core.netigso [1.23.1 201309162201]
-	org.netbeans.modules.netbinox [1.32.1 201309162201]
+	org.netbeans.libs.jna/1 [1.31.1 201310111528]
+	org.netbeans.modules.dlight.nativeexecution [1.30.4.1 1 201310111528]
+	org.netbeans.modules.dlight.remote [1.22.3.1 1 201310111528]
+	org.netbeans.modules.dlight.remote.impl [1.20.2.1 1 201310111528]
+	org.netbeans.modules.remotefs.versioning [1.8.1.1 1 201310111528]
+	org.netbeans.modules.project.libraries/1 [1.44.1 201310111528]
+	org.netbeans.modules.project.ant/1 [1.56.1 201310111528]
+	org.netbeans.modules.progress.ui [1.26.1 201310111528]
+	org.netbeans.modules.print.editor [7.20.1 201310111528]
+	org.netbeans.modules.print [7.19.1 201310111528]
+	org.netbeans.modules.parsing.ui [1.7.1 201310111528]
+	org.netbeans.modules.notifications [1.1.1 201310111528]
+	org.netbeans.libs.osgi [1.15.1 201310111528]
+	org.netbeans.core.netigso [1.23.1 201310111528]
+	org.netbeans.modules.netbinox [1.32.1 201310111528]
 	org.eclipse.equinox.common [3.6.0 3.6.0.v20110523]
 	org.eclipse.mylyn.tasks.core [3.9.0 3.9.0.v20130612-0100]
 	org.eclipse.core.runtime [3.7.0 3.7.0.v20110110]
 	org.eclipse.mylyn.commons.net [3.9.0 3.9.0.v20130612-0100]
 	org.eclipse.core.jobs [3.5.101 3.5.101.v20120113-1953]
 	org.eclipse.mylyn.wikitext.core [1.8.0 1.8.0.v20130612-0100]
-	org.netbeans.modules.bugtracking [1.64.1 201309162201]
-	org.netbeans.modules.mylyn.util [1.16.1 201309162201]
-	org.netbeans.modules.mercurial [1.34.1.42.1 201309162201]
-	org.netbeans.modules.masterfs.linux [1.7.1 201309162201]
-	org.netbeans.modules.localhistory [1.27.1 201309162201]
-	org.netbeans.modules.lexer.nbbridge/1 [1.25.1.1 201309162201]
-	org.netbeans.libs.bytelist/1 [0.21.1.1 1 201309162201]
-	org.netbeans.libs.jvyamlb/1 [0.23.1 201309162201]
-	org.netbeans.modules.languages.yaml [2.25.1 201309162201]
-	org.netbeans.modules.languages.manifest [1.25.1 201309162201]
-	org.netbeans.modules.languages.diff [1.26.1 201309162201]
-	org.netbeans.modules.keyring.fallback [1.1.1 201309162201]
-	org.netbeans.modules.keyring.impl [1.14.1 201309162201]
-	org.netbeans.libs.junit4 [1.14 201309162201]
-	org.netbeans.modules.junitlib [1.1 201309162201]
-	org.netbeans.libs.nashorn/1 [1.13.1 201309162201]
-	org.netbeans.modules.html.editor.lib/3 [3.20.1 201309162201]
-	org.netbeans.modules.html/1 [1.53.1 201309162201]
-	org.netbeans.libs.antlr3.runtime [1.15.1.1 1 201309162201]
-	org.netbeans.modules.css.lib/1 [1.65.1 201309162201]
-	org.netbeans.modules.css.model [1.24.1 201309162201]
-	org.netbeans.modules.css.editor/1 [1.57.1 201309162201]
-	org.netbeans.modules.html.editor/2 [2.40.1 201309162201]
-	org.netbeans.modules.javascript2.editor/1 [0.29.1 201309162201]
-	org.netbeans.modules.javascript2.knockout [1.1.1 201309162201]
-	org.netbeans.modules.javascript2.extjs [1.1.1 201309162201]
-	org.netbeans.modules.javascript2.jquery [1.1.1 201309162201]
-	org.netbeans.modules.javascript2.kit/1 [0.6.1 201309162201]
-	org.netbeans.modules.image/1 [1.41.1 201309162201]
-	org.netbeans.modules.editor.bookmarks/1 [1.30.1 201309162201]
-	org.netbeans.core.output2/1 [1.34.1 201309162201]
-	org.netbeans.modules.css.visual/3 [3.24.1 201309162201]
-	org.netbeans.modules.editor.search [1.15.1.0.43 0 201309162201]
-	org.netbeans.modules.html.parser/1 [1.26.1.1 1 201309162201]
+	org.netbeans.modules.bugtracking [1.64.1 201310111528]
+	org.netbeans.modules.mylyn.util [1.16.1 201310111528]
+	org.netbeans.modules.mercurial [1.34.1.42.1 201310111528]
+	org.netbeans.modules.masterfs.linux [1.7.1 201310111528]
+	org.netbeans.modules.localhistory [1.27.1 201310111528]
+	org.netbeans.modules.lexer.nbbridge/1 [1.25.1.1 201310111528]
+	org.netbeans.libs.bytelist/1 [0.21.1.1 1 201310111528]
+	org.netbeans.libs.jvyamlb/1 [0.23.1 201310111528]
+	org.netbeans.modules.languages.yaml [2.25.1 201310111528]
+	org.netbeans.modules.languages.manifest [1.25.1 201310111528]
+	org.netbeans.modules.languages.diff [1.26.1 201310111528]
+	org.netbeans.modules.keyring.fallback [1.1.1 201310111528]
+	org.netbeans.modules.keyring.impl [1.14.1 201310111528]
+	org.netbeans.libs.junit4 [1.14 201310111528]
+	org.netbeans.modules.junitlib [1.1 201310111528]
+	org.netbeans.libs.nashorn/1 [1.13.1 201310111528]
+	org.netbeans.modules.html.editor.lib/3 [3.20.1 201310111528]
+	org.netbeans.modules.html/1 [1.53.1 201310111528]
+	org.netbeans.libs.antlr3.runtime [1.15.1.1 1 201310111528]
+	org.netbeans.modules.css.lib/1 [1.65.1 201310111528]
+	org.netbeans.modules.css.model [1.24.1 201310111528]
+	org.netbeans.modules.css.editor/1 [1.57.1 201310111528]
+	org.netbeans.modules.html.editor/2 [2.40.1 201310111528]
+	org.netbeans.modules.javascript2.editor/1 [0.29.1 201310111528]
+	org.netbeans.modules.javascript2.knockout [1.1.1 201310111528]
+	org.netbeans.modules.javascript2.extjs [1.1.1 201310111528]
+	org.netbeans.modules.javascript2.jquery [1.1.1 201310111528]
+	org.netbeans.modules.javascript2.kit/1 [0.6.1 201310111528]
+	org.netbeans.modules.image/1 [1.41.1 201310111528]
+	org.netbeans.modules.editor.bookmarks/1 [1.30.1 201310111528]
+	org.netbeans.core.output2/1 [1.34.1 201310111528]
+	org.netbeans.modules.css.visual/3 [3.24.1 201310111528]
+	org.netbeans.modules.editor.search [1.15.1.0.43 0 201310111528]
+	org.netbeans.modules.html.parser/1 [1.26.1.1 1 201310111528]
 	org.apache.commons.logging [1.1.1 1.1.1]
-	org.netbeans.modules.html.validation/1 [1.23.1 201309162201]
-	org.netbeans.modules.editor.kit [1.26.1 201309162201]
-	org.netbeans.modules.dlight.terminal [1.16.1.1 1 201309162201]
-	org.netbeans.core.multitabs [1.3.3.1 1 201309162201]
-	org.netbeans.core.multitabs.project [1.3.1.1.1 1 201309162201]
-	org.netbeans.modules.editor.plain/2 [1.28.1 201309162201]
-	org.netbeans.libs.felix [2.9.1 201309162201]
-	org.netbeans.modules.autoupdate.cli [1.6.1 201309162201]
-	org.netbeans.modules.core.kit [1.23.1 201309162201]
-	org.netbeans.modules.editor.macros/0 [1.24.1.1.22 1 201309162201]
-	org.netbeans.modules.defaults/1 [1.25.1 201309162201]
-	org.netbeans.modules.ide.kit [1.26.1 201309162201]
-	org.netbeans.modules.ide.ergonomics [1.22.1 201309162201]
-	org.netbeans.modules.autoupdate.pluginimporter [1.13.1 201309162201]
-	org.netbeans.modules.ide.branding/1 [1.26.1 201309162201]
-	org.netbeans.modules.ide.branding.kit [1.22.1 201309162201]
-	org.netbeans.libs.commons_net/2 [2.14.1.33 33 201309162201]
-	org.netbeans.modules.hudson [2.1.1 201309162201]
-	org.netbeans.modules.gsf.testrunner/1 [1.37.1 201309162201]
-	org.netbeans.modules.hudson.ui [1.1.1 201309162201]
-	org.netbeans.modules.hudson.tasklist [1.10.1 201309162201]
-	org.netbeans.modules.hudson.subversion [1.22.1 201309162201]
-	org.netbeans.modules.hudson.mercurial [1.22.1 201309162201]
-	org.netbeans.modules.hudson.git [1.11.1 201309162201]
-	org.netbeans.modules.html.knockout [1.3.1 201309162201]
-	org.netbeans.core.browser/1 [1.21.1.1 1 201309162201]
-	org.netbeans.modules.html.angular [1.4.1 201309162201]
+	org.netbeans.modules.html.validation/1 [1.23.1 201310111528]
+	org.netbeans.modules.editor.kit [1.26.1 201310111528]
+	org.netbeans.modules.dlight.terminal [1.16.1.1 1 201310111528]
+	org.netbeans.core.multitabs [1.3.3.1 1 201310111528]
+	org.netbeans.core.multitabs.project [1.3.1.1.1 1 201310111528]
+	org.netbeans.modules.editor.plain/2 [1.28.1 201310111528]
+	org.netbeans.libs.felix [2.9.1 201310111528]
+	org.netbeans.modules.autoupdate.cli [1.6.1 201310111528]
+	org.netbeans.modules.core.kit [1.23.1 201310111528]
+	org.netbeans.modules.editor.macros/0 [1.24.1.1.22 1 201310111528]
+	org.netbeans.modules.defaults/1 [1.25.1 201310111528]
+	org.netbeans.modules.ide.kit [1.26.1 201310111528]
+	org.netbeans.modules.ide.ergonomics [1.22.1 201310111528]
+	org.netbeans.modules.autoupdate.pluginimporter [1.13.1 201310111528]
+	org.netbeans.modules.ide.branding/1 [1.26.1 201310111528]
+	org.netbeans.modules.ide.branding.kit [1.22.1 201310111528]
+	org.netbeans.libs.commons_net/2 [2.14.1.33 33 201310111528]
+	org.netbeans.modules.hudson [2.1.1 201310111528]
+	org.netbeans.modules.gsf.testrunner/1 [1.37.1 201310111528]
+	org.netbeans.modules.hudson.ui [1.1.1 201310111528]
+	org.netbeans.modules.hudson.tasklist [1.10.1 201310111528]
+	org.netbeans.modules.hudson.subversion [1.22.1 201310111528]
+	org.netbeans.modules.hudson.mercurial [1.22.1 201310111528]
+	org.netbeans.modules.hudson.git [1.11.1 201310111528]
+	org.netbeans.modules.html.knockout [1.3.1 201310111528]
+	org.netbeans.core.browser/1 [1.21.1.1 1 201310111528]
+	org.netbeans.modules.html.angular [1.4.1 201310111528]
 	org.eclipse.jgit [2.3.1 2.3.1.201302201838-r]
-	org.netbeans.libs.jna.platform/1 [1.1.1 201309162201]
-	org.netbeans.libs.jsch.agentproxy/1 [0.4.1 201309162201]
-	org.netbeans.libs.git/1 [1.12.1 201309162201]
-	org.netbeans.modules.git [1.11.1.1 201309162201]
+	org.netbeans.libs.jna.platform/1 [1.1.1 201310111528]
+	org.netbeans.libs.jsch.agentproxy/1 [0.4.1 201310111528]
+	org.netbeans.libs.git/1 [1.12.1 201310111528]
+	org.netbeans.modules.git [1.11.1.1 201310111528]
 	org.apache.commons.io [1.4 1.4]
-	org.netbeans.modules.extexecution.impl [1.18.1 201309162201]
-	org.netbeans.modules.editor.mimelookup.impl/1 [1.24.1 201309162201]
-	org.netbeans.modules.editor.indent.project/0 [1.15.1 201309162201]
-	org.netbeans.modules.editor.global.format/1 [1.8.1.1 1 201309162201]
-	org.netbeans.modules.dlight.kit [1.19.1.1 1 201309162201]
-	org.netbeans.modules.db.metadata.model/1 [1.4.1 201309162201]
-	org.netbeans.modules.db/1 [1.58.1.30 30 201309162201]
-	org.netbeans.modules.dbapi [1.27.1.30 201309162201]
-	org.netbeans.modules.derby [1.33.1 201309162201]
-	org.netbeans.api.visual [2.40.1 201309162201]
-	org.netbeans.modules.db.sql.visualeditor/1 [2.24.1.30 201309162201]
-	org.netbeans.modules.db.dataview [1.22.1 201309162201]
-	org.netbeans.modules.db.core [1.29.1 201309162201]
-	org.netbeans.modules.db.sql.editor [1.29.1.30 201309162201]
-	org.netbeans.modules.db.mysql [0.21.1.2 2 201309162201]
-	org.netbeans.modules.db.drivers [1.23.1 201309162201]
-	org.netbeans.modules.db.kit [1.24.1 201309162201]
-	org.netbeans.modules.css.prep [1.17.1 201309162201]
-	org.netbeans.modules.cnd.utils [1.40.3.2 2 201309162201]
-	org.netbeans.modules.cnd.lexer/1 [1.27.1.1 1 201309162201]
-	org.netbeans.modules.cnd.source [1.16.1.1 1 201309162201]
-	org.netbeans.modules.cnd.api.project/1 [1.28.1.1 1 201309162201]
-	org.netbeans.modules.cnd.makeproject.source.bridge [1.19.1.1 1 201309162201]
-	org.netbeans.modules.cnd.search [1.7.1 201309162201]
-	org.netbeans.modules.cnd.api.remote/1 [1.19.2.1 1 201309162201]
-	org.netbeans.modules.cnd.toolchain [1.26.1.1 1 201309162201]
-	org.netbeans.modules.cnd/1 [1.30.1.1 1 201309162201]
-	org.netbeans.modules.cnd.api.model/1 [1.27.2.1 1 201309162201]
-	org.netbeans.modules.cnd.modelutil/1 [1.28.2.1 1 201309162201]
-	org.netbeans.modules.cnd.makeproject/2 [2.45.5.1 1 201309162201]
-	org.netbeans.modules.cnd.testrunner [1.17.1.1 1 201309162201]
-	org.netbeans.modules.cnd.antlr [2.31.1.1 1 201309162201]
-	org.netbeans.modules.cnd.asm/1 [1.22.1.2 2 201309162201]
-	org.netbeans.modules.cnd.callgraph [1.20.1.1 1 201309162201]
-	org.netbeans.modules.cnd.repository.api/1 [1.25.2.1 1 201309162201]
-	org.netbeans.modules.cnd.repository [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cnd.model.services/1 [1.36.4.1 1 201309162201]
-	org.netbeans.modules.cnd.dwarfdump [1.28.1.1 1 201309162201]
-	org.netbeans.modules.cnd.highlight [1.25.1.1.1 1 201309162201]
-	org.netbeans.modules.cnd.gotodeclaration [1.25.1.1 1 201309162201]
-	org.netbeans.modules.cnd.script [1.15.1.1 1 201309162201]
-	org.netbeans.modules.cnd.simpleunit [1.15.1.1.1 1 201309162201]
-	org.netbeans.modules.cnd.cncppunit [1.16.1.1.1 1 201309162201]
-	org.netbeans.modules.cnd.debugger.common2/3 [3.20.1.3 3 201309162201]
-	org.netbeans.modules.cnd.remote [1.21.1.1 1 201309162201]
-	org.netbeans.modules.cnd.discovery [1.39.6.1 1 201309162201]
-	org.netbeans.modules.cnd.modeldiscovery [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cnd.indexing [1.6.2 201309162201]
-	org.netbeans.modules.cnd.editor/1 [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cnd.refactoring/1 [1.23.1.1 1 201309162201]
-	org.netbeans.modules.cnd.apt [1.37.1.1 1 201309162201]
-	org.netbeans.modules.cnd.modelimpl/1 [1.45.4.1 1 201309162201]
-	org.netbeans.modules.cnd.modelui [1.27.1.1 1 201309162201]
-	org.netbeans.modules.cnd.folding [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cnd.classview/1 [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cnd.debugger.gdb2/1 [1.15.1.1 1 201309162201]
-	org.netbeans.modules.cnd.spellchecker.bindings/1 [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cnd.completion/1 [1.26.3.1 1 201309162201]
-	org.netbeans.modules.cnd.litemodel [1.14.1.1 1 201309162201]
-	org.netbeans.modules.cnd.dwarfdiscovery [1.26.1.1 1 201309162201]
-	org.netbeans.modules.cnd.qnavigator/1 [1.25.3.1 1 201309162201]
-	org.netbeans.modules.cnd.navigation [1.27.1.1 1 201309162201]
-	org.netbeans.modules.cnd.remote.projectui [1.9.1.1 1 201309162201]
-	org.netbeans.modules.cnd.kit [1.24.1.1 1 201309162201]
-	org.netbeans.modules.cppgnuautotools [1.0.1.1.1.1.1.1.2.1.1.1.3.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.2.1.1.1.1 131116]
+	org.netbeans.modules.extexecution.impl [1.18.1 201310111528]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.24.1 201310111528]
+	org.netbeans.modules.editor.indent.project/0 [1.15.1 201310111528]
+	org.netbeans.modules.editor.global.format/1 [1.8.1.1 1 201310111528]
+	org.netbeans.modules.db.metadata.model/1 [1.4.1 201310111528]
+	org.netbeans.modules.db/1 [1.58.1.30 30 201310111528]
+	org.netbeans.modules.dbapi [1.27.1.30 201310111528]
+	org.netbeans.modules.derby [1.33.1 201310111528]
+	org.netbeans.api.visual [2.40.1 201310111528]
+	org.netbeans.modules.db.sql.visualeditor/1 [2.24.1.30 201310111528]
+	org.netbeans.modules.db.dataview [1.22.1 201310111528]
+	org.netbeans.modules.db.core [1.29.1 201310111528]
+	org.netbeans.modules.db.sql.editor [1.29.1.30 201310111528]
+	org.netbeans.modules.db.mysql [0.21.1.2 2 201310111528]
+	org.netbeans.modules.db.drivers [1.23.1 201310111528]
+	org.netbeans.modules.db.kit [1.24.1 201310111528]
+	org.netbeans.modules.css.prep [1.17.1 201310111528]
+	org.netbeans.modules.cnd.utils [1.40.3.2 2 201310111528]
+	org.netbeans.modules.cnd.api.remote/1 [1.19.2.1 1 201310111528]
+	org.netbeans.modules.cnd.lexer/1 [1.27.1.1 1 201310111528]
+	org.netbeans.modules.cnd.source [1.16.1.1 1 201310111528]
+	org.netbeans.modules.cnd.api.project/1 [1.28.1.1 1 201310111528]
+	org.netbeans.modules.cnd.toolchain [1.26.1.1 1 201310111528]
+	org.netbeans.modules.cnd/1 [1.30.1.1 1 201310111528]
+	org.netbeans.modules.cnd.api.model/1 [1.27.2.1 1 201310111528]
+	org.netbeans.modules.cnd.makeproject/2 [2.45.5.1 1 201310111528]
+	org.netbeans.modules.cppgnuautotools [1.0.1.1.1.1.1.1.2.1.1 131116]
+	org.netbeans.modules.cnd.repository.api/1 [1.25.2.1 1 201310111528]
+	org.netbeans.modules.cnd.repository [1.24.1.1 1 201310111528]
+	org.netbeans.modules.cnd.remote [1.21.1.1 1 201310111528]
+	org.netbeans.modules.cnd.modelutil/1 [1.28.2.1 1 201310111528]
+	org.netbeans.modules.cnd.indexing [1.6.2 201310111528]
+	org.netbeans.modules.cnd.antlr [2.31.1.1 1 201310111528]
+	org.netbeans.modules.cnd.apt [1.37.1.1 1 201310111528]
+	org.netbeans.modules.cnd.model.services/1 [1.36.4.1 1 201310111528]
+	org.netbeans.modules.cnd.modelimpl/1 [1.45.4.1 1 201310111528]
+	org.netbeans.modules.cnd.makeproject.source.bridge [1.19.1.1 1 201310111528]
 	org.eclipse.mylyn.bugzilla.core [3.9.0 3.9.0.v20130612-0100]
 	org.apache.ws.commons.util [1.0.1 1.0.1]
 	org.apache.commons.httpclient [3.1.0 3.1.0]
-	org.netbeans.modules.bugzilla [1.42.1 201309162201]
-	org.netbeans.modules.bugzilla.exceptionreporter [1.17.1 201309162201]
-	org.netbeans.modules.bugtracking.bridge [1.32.1 201309162201]
-	org.netbeans.libs.svnClientAdapter.svnkit/1 [1.16.1 201309162201]
-	org.netbeans.libs.svnClientAdapter.javahl/1 [1.16.1 201309162201]
-	org.netbeans.libs.freemarker/1 [2.27.1.238 238 201309162201]
-	org.netbeans.core.network [1.1.1 201309162201]
-	org.netbeans.core.nativeaccess/1 [1.23.1 201309162201]
-	org.netbeans.core.io.ui/1 [1.23.1 201309162201]
-	org.netbeans.core.browser.webview/1 [1.8.1.1.1 1 201309162201]
+	org.netbeans.modules.bugzilla [1.42.1 201310111528]
+	org.netbeans.modules.bugzilla.exceptionreporter [1.17.1 201310111528]
+	org.netbeans.modules.bugtracking.bridge [1.32.1 201310111528]
+	org.netbeans.libs.svnClientAdapter.svnkit/1 [1.16.1 201310111528]
+	org.netbeans.libs.svnClientAdapter.javahl/1 [1.16.1 201310111528]
+	org.netbeans.libs.freemarker/1 [2.27.1.238 238 201310111528]
+	org.netbeans.core.network [1.1.1 201310111528]
+	org.netbeans.core.nativeaccess/1 [1.23.1 201310111528]
+	org.netbeans.core.io.ui/1 [1.23.1 201310111528]
+	org.netbeans.core.browser.webview/1 [1.8.1.1.1 1 201310111528]
 	org.eclipse.mylyn.commons.xmlrpc [3.9.0 3.9.0.v20130612-0100]
 	org.eclipse.mylyn.commons.repositories.core [1.1.0 1.1.0.v20130612-0100]
 	org.eclipse.mylyn.commons.core [3.9.0 3.9.0.v20130612-0100]
@@ -381,13 +352,14 @@ INFO [org.netbeans.core.network.proxy.gnome.GsettingsNetworkProxy]: GSettings sy
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: falled to default (corect if direct mode went before)
+WARNING [org.openide.filesystems.Ordering]: Not all children in Toolbars/ marked with the position attribute: [Remote], but some are: [File, Clipboard, UndoRedo, Build, Debug, Memory, Standard.xml, Debugging.xml]
 Diagnostic information
 Input arguments:
 	-Djdk.home=/usr/lib/jvm/jdk1.7.0
 	-Dnetbeans.default_userdir_root=/home/derby/.netbeans
 	-Dnetbeans.running.environment=gnome
-	-Dnetbeans.dirs=/home/derby/netbeans-7.4rc1/nb:/home/derby/netbeans-7.4rc1/ergonomics:/home/derby/netbeans-7.4rc1/ide:/home/derby/netbeans-7.4rc1/extide:/home/derby/netbeans-7.4rc1/java:/home/derby/netbeans-7.4rc1/apisupport:/home/derby/netbeans-7.4rc1/webcommon:/home/derby/netbeans-7.4rc1/websvccommon:/home/derby/netbeans-7.4rc1/enterprise:/home/derby/netbeans-7.4rc1/mobility:/home/derby/netbeans-7.4rc1/profiler:/home/derby/netbeans-7.4rc1/python:/home/derby/netbeans-7.4rc1/php:/home/derby/netbeans-7.4rc1/identity:/home/derby/netbeans-7.4rc1/harness:/home/derby/netbeans-7.4rc1/cnd:/home/derby/netbeans-7.4rc1/dlight:/home/derby/netbeans-7.4rc1/groovy:/home/derby/netbeans-7.4rc1/extra:/home/derby/netbeans-7.4rc1/javacard:/home/derby/netbeans-7.4rc1/javafx::/home/derby/workspace/NetbeansProjects/CppGnuAutoTools/build/cluster
-	-Dnetbeans.home=/home/derby/netbeans-7.4rc1/platform
+	-Dnetbeans.dirs=/home/derby/Public/netbeans-7.4/nb:/home/derby/Public/netbeans-7.4/ergonomics:/home/derby/Public/netbeans-7.4/ide:/home/derby/Public/netbeans-7.4/extide:/home/derby/Public/netbeans-7.4/java:/home/derby/Public/netbeans-7.4/apisupport:/home/derby/Public/netbeans-7.4/webcommon:/home/derby/Public/netbeans-7.4/websvccommon:/home/derby/Public/netbeans-7.4/enterprise:/home/derby/Public/netbeans-7.4/mobility:/home/derby/Public/netbeans-7.4/profiler:/home/derby/Public/netbeans-7.4/python:/home/derby/Public/netbeans-7.4/php:/home/derby/Public/netbeans-7.4/identity:/home/derby/Public/netbeans-7.4/harness:/home/derby/Public/netbeans-7.4/cnd:/home/derby/Public/netbeans-7.4/dlight:/home/derby/Public/netbeans-7.4/groovy:/home/derby/Public/netbeans-7.4/extra:/home/derby/Public/netbeans-7.4/javacard:/home/derby/Public/netbeans-7.4/javafx::/home/derby/workspace/NetbeansProjects/CppGnuAutoTools/build/cluster
+	-Dnetbeans.home=/home/derby/Public/netbeans-7.4/platform
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
 	-Dnetbeans.accept_license_class=org.netbeans.license.AcceptLicense
 	-XX:MaxPermSize=384m
@@ -407,33 +379,169 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 742.4MB
 Non heap memory usage: initial 32.2MB maximum 416.0MB
-Garbage collector: Copy (Collections=88 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=6093 total loaded=6093 unloaded 0
+Garbage collector: Copy (Collections=80 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=2 Total time spent=0s)
+Classes: loaded=6453 total loaded=6453 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 4,094,951,424
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/BuildProject/ marked with the position attribute: [Autotools], but some are: [org-netbeans-modules-project-ui-RunMainProject.shadow, org-netbeans-modules-project-ui-TestProject.shadow, org-netbeans-modules-cnd-makeproject-actions-BatchBuildAction.shadow, SeparatorBuildProjectEnd.instance, org-netbeans-modules-project-ui-actions-ActiveConfigAction.shadow, org-netbeans-modules-project-ui-SetMainProject.shadow, SeparatorMainProject.instance, org-netbeans-modules-project-ui-RunSingle.shadow, org-netbeans-modules-project-ui-TestSingle.shadow, org-netbeans-modules-xml-tools-actions-CheckAction.shadow, org-netbeans-modules-xml-tools-actions-ValidateAction.shadow, SeparatorSingle.instance, org-netbeans-modules-project-ui-Rerun.shadow, org-netbeans-modules-project-ui-actions-StopBuildingAction.shadow]
+WARNING [org.openide.filesystems.Ordering]: Not all children in Templates/Project/Native/ marked with the position attribute: [CAutotoolsTPlateProject.zip, CppAutoToolsTPlateProject.zip], but some are: [makefile.xml, binary.xml, newApplication.xml, newDynamicLibrary.xml, newStaticLibrary.xml, newQtApplication.xml, newQtDynamicLibrary.xml, newQtStaticLibrary.xml]
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.nativeexecution.support.hostinfo.impl.HostInfoFactory.getNBKey(HostInfoFactory.java:411)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/BuildProject/ marked with the position attribute: [Autotools], but some are: [org-netbeans-modules-project-ui-RunMainProject.shadow, org-netbeans-modules-project-ui-TestProject.shadow, SeparatorBuildProject.instance, org-netbeans-modules-project-ui-BuildMainProject.shadow, org-netbeans-modules-project-ui-RebuildMainProject.shadow, org-netbeans-modules-cnd-makeproject-actions-BatchBuildAction.shadow, SeparatorBuildProjectEnd.instance, org-netbeans-modules-project-ui-actions-ActiveConfigAction.shadow, org-netbeans-modules-project-ui-SetMainProject.shadow, SeparatorMainProject.instance, org-netbeans-modules-project-ui-RunSingle.shadow, org-netbeans-modules-project-ui-TestSingle.shadow, org-netbeans-modules-project-ui-CompileSingle.shadow, org-netbeans-modules-xml-tools-actions-CheckAction.shadow, org-netbeans-modules-xml-tools-actions-ValidateAction.shadow, SeparatorSingle.instance, org-netbeans-modules-project-ui-Rerun.shadow, org-netbeans-modules-project-ui-actions-StopBuildingAction.shadow]
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.netbeans.modules.projectui.buildmenu/1 [1.20.1.1 1 201310111528]
+	org.netbeans.modules.dlight.kit [1.19.1.1 1 201310111528]
+	org.netbeans.modules.cnd.testrunner [1.17.1.1 1 201310111528]
+	org.netbeans.modules.cnd.script [1.15.1.1 1 201310111528]
+	org.netbeans.modules.cnd.spellchecker.bindings/1 [1.24.1.1 1 201310111528]
+	org.netbeans.modules.cnd.simpleunit [1.15.1.1.1 1 201310111528]
+	org.netbeans.modules.cnd.search [1.7.1 201310111528]
+	org.netbeans.modules.cnd.discovery [1.39.6.1 1 201310111528]
+	org.netbeans.modules.cnd.dwarfdump [1.28.1.1 1 201310111528]
+	org.netbeans.modules.cnd.remote.projectui [1.9.1.1 1 201310111528]
+	org.netbeans.modules.cnd.editor/1 [1.24.1.1 1 201310111528]
+	org.netbeans.modules.cnd.refactoring/1 [1.23.1.1 1 201310111528]
+	org.netbeans.modules.cnd.qnavigator/1 [1.25.3.1 1 201310111528]
+	org.netbeans.modules.cnd.callgraph [1.20.1.1 1 201310111528]
+	org.netbeans.modules.cnd.navigation [1.27.1.1 1 201310111528]
+	org.netbeans.modules.cnd.highlight [1.25.1.1.1 1 201310111528]
+	org.netbeans.modules.cnd.modelui [1.27.1.1 1 201310111528]
+	org.netbeans.modules.cnd.modeldiscovery [1.24.1.1 1 201310111528]
+	org.netbeans.modules.cnd.litemodel [1.14.1.1 1 201310111528]
+	org.netbeans.modules.cnd.asm/1 [1.22.1.2 2 201310111528]
+	org.netbeans.modules.cnd.gotodeclaration [1.25.1.1 1 201310111528]
+	org.netbeans.modules.cnd.debugger.common2/3 [3.20.1.3 3 201310111528]
+	org.netbeans.modules.cnd.cncppunit [1.16.1.1.1 1 201310111528]
+	org.netbeans.modules.cnd.folding [1.24.1.1 1 201310111528]
+	org.netbeans.modules.cnd.classview/1 [1.24.1.1 1 201310111528]
+	org.netbeans.modules.cnd.debugger.gdb2/1 [1.15.1.1 1 201310111528]
+	org.netbeans.modules.cnd.completion/1 [1.26.3.1 1 201310111528]
+	org.netbeans.modules.cnd.dwarfdiscovery [1.26.1.1 1 201310111528]
+	org.netbeans.modules.cnd.kit [1.24.1.1 1 201310111528]
 WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/BuildProject/ marked with the position attribute: [Autotools], but some are: [org-netbeans-modules-project-ui-RunMainProject.shadow, org-netbeans-modules-project-ui-TestProject.shadow, SeparatorBuildProject.instance, org-netbeans-modules-project-ui-BuildMainProject.shadow, org-netbeans-modules-project-ui-RebuildMainProject.shadow, org-netbeans-modules-cnd-makeproject-actions-BatchBuildAction.shadow, SeparatorBuildProjectEnd.instance, org-netbeans-modules-project-ui-actions-ActiveConfigAction.shadow, org-netbeans-modules-project-ui-SetMainProject.shadow, SeparatorMainProject.instance, org-netbeans-modules-project-ui-RunSingle.shadow, org-netbeans-modules-project-ui-TestSingle.shadow, org-netbeans-modules-project-ui-CompileSingle.shadow, org-netbeans-modules-xml-tools-actions-CheckAction.shadow, org-netbeans-modules-xml-tools-actions-ValidateAction.shadow, SeparatorSingle.instance, org-netbeans-modules-project-ui-Rerun.shadow, org-netbeans-modules-project-ui-actions-StopBuildingAction.shadow]
 WARNING [org.openide.filesystems.Ordering]: Not all children in Templates/Project/Native/ marked with the position attribute: [CAutotoolsTPlateProject.zip, CppAutoToolsTPlateProject.zip], but some are: [makefile.xml, binary.xml, newApplication.xml, newDynamicLibrary.xml, newStaticLibrary.xml, newQtApplication.xml, newQtDynamicLibrary.xml, newQtStaticLibrary.xml]
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-WARNING [org.netbeans.core.TimableEventQueue]: Still previous controller org.netbeans.modules.sampler.InternalSampler@19ac78d
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.nativeexecution.support.hostinfo.impl.HostInfoFactory.getNBKey(HostInfoFactory.java:411)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 15 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 Configuration updated:
 	0 deleted items
-	1 added items
+	0 added items
 	0 changed items
-INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Open native project CppAutoToolsTPlate /home/derby/NetBeansProjects/CppAutoToolsTPlate
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 20 ms
+INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Open native project CAutotoolsTPlate74A /home/derby/NetBeansProjects/CAutotoolsTPlate74A
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 5 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/derby/NetBeansProjects/CAutotoolsTPlate74A took: 3,440 ms (New or modified files: 43, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 3,440 ms (New or modified files: 43, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/derby/NetBeansProjects/CppAutoToolsTPlate took: 1,928 ms (New or modified files: 44, Deleted files: 0) [Adding listeners took: 8 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 1,928 ms (New or modified files: 44, Deleted files: 0) [Adding listeners took: 8 ms]
-INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Close native project CppAutoToolsTPlate /home/derby/NetBeansProjects/CppAutoToolsTPlate
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/derby/Public/netbeans-7.4/ide/jsstubs/reststubs.zip took: 62 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/derby/Public/netbeans-7.4/ide/jsstubs/corestubs.zip took: 44 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/derby/Public/netbeans-7.4/ide/jsstubs/domstubs.zip took: 77 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 183 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+Project MakeProject[/home/derby/NetBeansProjects/CAutotoolsTPlate74A@a8ff7a3:19a1fd0] configuration has:
+	C files 1 + excluded 0
+	C++ files 0 + excluded 0
+	Header files 0 + excluded 1
+	All items 4
+Configuration updated:
+	1 deleted items
+	0 added items
+	0 changed items
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no such module /home/derby/Public/netbeans-7.4/cnd/update_tracking/org-netbeans-modules-cnd-actions.xml at org.netbeans.modules.nativeexecution.api.util.HelperLibraryUtility.getLocalFileLocationFor(HelperLibraryUtility.java:230)
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no such module /home/derby/Public/netbeans-7.4/cnd/update_tracking/org-netbeans-modules-cnd-actions.xml at org.netbeans.modules.nativeexecution.api.util.HelperLibraryUtility.getLocalFileLocationFor(HelperLibraryUtility.java:230)
+INFO [org.netbeans.modules.cnd.discovery.projectimport.ImportProject]: Post fixing of excluded header files for project CAutotoolsTPlate74A org.netbeans.modules.cnd.modelimpl.csm.core.ProjectImpl @11376198:11376198
+Project MakeProject[/home/derby/NetBeansProjects/CAutotoolsTPlate74A@a8ff7a3:19a1fd0] configuration has:
+	C files 1 + excluded 0
+	C++ files 0 + excluded 0
+	Header files 0 + excluded 1
+	All items 4
+Configuration updated:
+	0 deleted items
+	0 added items
+	1 changed items
+INFO [org.netbeans.modules.cnd.discovery.projectimport.ImportProject]: Model parsing finished and ready to fixing of excluded header files for model project CAutotoolsTPlate74A org.netbeans.modules.cnd.modelimpl.csm.core.ProjectImpl @11376198:11376198
+INFO [org.netbeans.modules.cnd.discovery.projectimport.ImportProject]: Start fixing of excluded header files for project CAutotoolsTPlate74A org.netbeans.modules.cnd.modelimpl.csm.core.ProjectImpl @11376198:11376198
+INFO [dlight.libs.common.logger]: Should not be called from UI thread
+java.lang.Exception: Should not be called from UI thread
+	at org.netbeans.modules.dlight.libs.common.DLightLibsCommonLogger.assertNonUiThread(DLightLibsCommonLogger.java:119)
+	at org.netbeans.modules.dlight.libs.common.DLightLibsCommonLogger.assertNonUiThreadOnce(DLightLibsCommonLogger.java:129)
+	at org.netbeans.modules.remote.support.LocalFileSystemProvider.urlToFileObject(LocalFileSystemProvider.java:263)
+	at org.netbeans.modules.remote.spi.FileSystemProvider.urlToFileObject(FileSystemProvider.java:288)
+	at org.netbeans.modules.cnd.remote.fs.CndFileSystemProviderImpl.toFileObjectImpl(CndFileSystemProviderImpl.java:87)
+	at org.netbeans.modules.cnd.spi.utils.CndFileSystemProvider$DefaultProvider.toFileObjectImpl(CndFileSystemProvider.java:242)
+	at org.netbeans.modules.cnd.spi.utils.CndFileSystemProvider.toFileObject(CndFileSystemProvider.java:135)
+	at org.netbeans.modules.cnd.utils.cache.CndFileUtils.toFileObject(CndFileUtils.java:216)
+	at org.netbeans.modules.cnd.api.remote.RemoteFileUtil.getFileObject(RemoteFileUtil.java:137)
+	at org.netbeans.modules.cnd.makeproject.ui.SelectExecutablePanel.validateExe(SelectExecutablePanel.java:197)
+	at org.netbeans.modules.cnd.makeproject.ui.SelectExecutablePanel.access$100(SelectExecutablePanel.java:78)
+	at org.netbeans.modules.cnd.makeproject.ui.SelectExecutablePanel$1.insertUpdate(SelectExecutablePanel.java:117)
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:202)
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:749)
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:708)
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:130)
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:670)
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1718)
+	at org.netbeans.modules.cnd.makeproject.ui.SelectExecutablePanel$MyListSelectionListener.valueChanged(SelectExecutablePanel.java:179)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1798)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1812)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+	at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+	at javax.swing.JList.setSelectedIndex(JList.java:2212)
+	at javax.swing.JList.setSelectedValue(JList.java:2362)
+	at org.netbeans.modules.cnd.makeproject.ui.SelectExecutablePanel$4.run(SelectExecutablePanel.java:315)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at org.netbeans.core.windows.services.NbPresenter.superShow(NbPresenter.java:1078)
+	at org.netbeans.core.windows.services.NbPresenter.doShow(NbPresenter.java:1128)
+	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:1100)
+	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:128)
+	at org.openide.util.Mutex.doEventAccess(Mutex.java:1368)
+	at org.openide.util.Mutex.readAccess(Mutex.java:278)
+	at org.netbeans.core.windows.services.NbPresenter.show(NbPresenter.java:1085)
+	at java.awt.Component.show(Component.java:1651)
+	at java.awt.Component.setVisible(Component.java:1603)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl$1AWTQuery.showDialog(DialogDisplayerImpl.java:260)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl$1AWTQuery.run(DialogDisplayerImpl.java:186)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Close native project CAutotoolsTPlate74A /home/derby/NetBeansProjects/CAutotoolsTPlate74A
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up jsstubs/domstubs.zip at org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$RootsWork.checkRootCollection(RepositoryUpdater.java:4477)
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up jsstubs/reststubs.zip at org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$RootsWork.checkRootCollection(RepositoryUpdater.java:4477)
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up jsstubs/corestubs.zip at org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$RootsWork.checkRootCollection(RepositoryUpdater.java:4477)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 2 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.openide.filesystems.Ordering]: Encountered non-boolean relative ordering attribute <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2"><group/></open-files> from org.netbeans.spi.project.AuxiliaryConfiguration.http://www.netbeans.org/ns/projectui-open-files/2#open-files on /home/derby/NetBeansProjects/GenC11
-WARNING [org.openide.filesystems.Ordering]: Encountered non-boolean relative ordering attribute <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2"><group/></open-files> from org.netbeans.spi.project.AuxiliaryConfiguration.http://www.netbeans.org/ns/projectui-open-files/2#open-files on /home/derby/NetBeansProjects/GenC11
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped

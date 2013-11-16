@@ -45,7 +45,8 @@
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
   <tc-id id="projectTabLogical_tc"/>
-  <tc-id id="projectTab_tc"/>
+  <tc-id id="output"/>
   <tc-id id="services"/>
+  <tc-id id="projectTab_tc"/>
     </tc-list>
 </windowmanager>
