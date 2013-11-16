@@ -1,0 +1,14 @@
+/cpp_projects/aclocal_runnable/dist/
+/cpp_projects/aclocal_runnable/build/
+/cpp_projects/autoconf_runnable/build/
+/cpp_projects/autoconf_runnable/dist/
+/cpp_projects/autoheader_runnable/build/
+/cpp_projects/autoheader_runnable/dist/
+/cpp_projects/automake_runnable/build/
+/cpp_projects/automake_runnable/dist/
+/cpp_projects/clean_autotools_runnable/build/
+/cpp_projects/clean_autotools_runnable/dist/
+/cpp_projects/configure_runnable/build/
+/cpp_projects/configure_runnable/dist/
+/cpp_projects/libtoolize_runnable/build/
+/cpp_projects/libtoolize_runnable/dist/
