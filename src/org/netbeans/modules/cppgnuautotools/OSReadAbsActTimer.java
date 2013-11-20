@@ -59,7 +59,8 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
             m_sSelected = sResultant;
             MakeConfiguration conf = getProjectConfigInternal();
             HandleFilePermissions hFilePerm = new HandleFilePermissions();
-            hFilePerm.ClearAbstractOutput();
+            hFilePerm.ClearOutputWindowDataStorage();
+            hFilePerm.StartProgressIndicator();
             m_nTimerCounter = 0 ;
             // JOptionPane.showMessageDialog(null, "ACLocal Starting timer actionPerformedOSRT m_sProjectPath: " + m_sProjectPath);
             specificToolPerform();

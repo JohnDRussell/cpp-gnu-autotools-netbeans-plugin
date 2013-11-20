@@ -50,6 +50,8 @@ using namespace std;
 
 #include "execute_stream.h"
 
+#define PROGRAM_EXECUTABLE_SCRIPT "Cleaning Autotools files"
+
 void deleteFileFromDirectory(string sDefaultDir, string sFileName)
 {
     string sCommand = "rm ";
@@ -59,7 +61,7 @@ void deleteFileFromDirectory(string sDefaultDir, string sFileName)
     
     cout << sCommand << endl;
     
-    execute_stream(sCommand);
+    execute_stream(sCommand, PROGRAM_EXECUTABLE_SCRIPT, false);
 }
 
 void deleteDirectoryFromDirectory(string sDefaultDir, string sDirName)
@@ -71,7 +73,7 @@ void deleteDirectoryFromDirectory(string sDefaultDir, string sDirName)
     
     cout << sCommand << endl;
     
-    execute_stream(sCommand);
+    execute_stream(sCommand, PROGRAM_EXECUTABLE_SCRIPT, false);
 }
 
 /*
@@ -153,6 +155,8 @@ int main(int argc, char** argv) {
         
         nIndex++;
     }
+    
+    std::cout << PROGRAM_EXECUTABLE_SCRIPT << " completed!" << endl;
 
     return 0;
 }

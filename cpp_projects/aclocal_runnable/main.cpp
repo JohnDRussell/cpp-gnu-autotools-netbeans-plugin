@@ -34,14 +34,16 @@ using namespace std;
 
 #include "execute_stream.h"
 
+#define PROGRAM_EXECUTABLE_SCRIPT "aclocal"
+
 /*
  * 
  */
 int main(int argc, char** argv) {
     string sCommand = "";
-    if (command_builder(argc, argv, "aclocal", sCommand) == 0) return 0;
+    if (command_builder(argc, argv, PROGRAM_EXECUTABLE_SCRIPT, sCommand) == 0) return 0;
     
-    execute_stream(sCommand);
+    execute_stream(sCommand, PROGRAM_EXECUTABLE_SCRIPT);
 
     return 0;
 }

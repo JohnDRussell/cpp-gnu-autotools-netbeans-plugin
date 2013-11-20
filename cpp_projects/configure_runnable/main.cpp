@@ -34,14 +34,19 @@ using namespace std;
 
 #include "execute_stream.h"
 
+#define PROGRAM_EXECUTABLE_SCRIPT "configure"
+
 /*
  * 
  */
 int main(int argc, char** argv) {
     string sCommand = "";
-    if (command_builder(argc, argv, "./configure", sCommand) == 0) return 0;
+    string sProgramExecutableScript = "./" ;
+    sProgramExecutableScript += PROGRAM_EXECUTABLE_SCRIPT ;
+
+    if (command_builder(argc, argv, sProgramExecutableScript.c_str(), sCommand) == 0) return 0;
     
-    execute_stream(sCommand);
+    execute_stream(sCommand, PROGRAM_EXECUTABLE_SCRIPT);
 
     return 0;
 }

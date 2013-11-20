@@ -50,17 +50,19 @@ int command_builder(int argc, char **argv, const char * szCmdName, string &sRetu
 
         cout << "cd " << argv[1] << endl;
 
-        if (argc >= 2) {
+        if (argc >= 3) {
             cout << szCmdName << " " << argv[2] << endl;
         } else {
             cout << szCmdName << endl;
         }
+    
         return 1;
     }
+    
     return 0;
 }
 
-void execute_stream(string sCommand)
+void execute_stream(string sCommand, const char * szCmdName, bool bDisplayMessage)
 {
     const redi::pstreams::pmode mode = redi::pstreams::pstdout|redi::pstreams::pstderr;
     redi::ipstream child(sCommand, mode);
@@ -92,6 +94,10 @@ void execute_stream(string sCommand)
                     child.clear();
             }
         }
+    }
+    
+    if (bDisplayMessage) {
+       std::cout << "\r\n" << szCmdName << " completed!" << endl;
     }
 }
 

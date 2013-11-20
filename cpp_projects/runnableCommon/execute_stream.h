@@ -29,7 +29,7 @@
 #define	EXECUTE_STREAM_H
 
 int command_builder(int argc, char **argv, const char * szCmdName, string &sReturn);
-void execute_stream(string sCommand);
+void execute_stream(string sCommand, const char * szCmdName, bool bDisplayMessage = true);
 
 #endif	/* EXECUTE_STREAM_H */
 

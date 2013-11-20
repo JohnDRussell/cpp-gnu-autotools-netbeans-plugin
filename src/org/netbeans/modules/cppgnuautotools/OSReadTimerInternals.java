@@ -48,6 +48,7 @@ public class OSReadTimerInternals implements FunctionExecutor {
             // action processor
             MakeConfiguration conf = getProjectConfigInternal();
             HandleFilePermissions hFilePerm = new HandleFilePermissions();
+            hFilePerm.StartProgressIndicator();
             m_nTimerCounter = 0 ;
             // JOptionPane.showMessageDialog(null, "ACLocal Starting timer actionPerformedOSRT m_sProjectPath: " + m_sProjectPath);
             specificToolPerform();
