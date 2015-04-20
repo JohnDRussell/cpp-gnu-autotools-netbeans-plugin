@@ -154,11 +154,13 @@ public class AutotoolsProject implements Project {
         }
 
         @Override
+        @SuppressWarnings("unchecked")
         public List<FileObject> getMetadataFiles() {
             return Collections.EMPTY_LIST;
         }
 
         @Override
+        @SuppressWarnings("unchecked")
         public List<FileObject> getDataFiles() {
             return Collections.EMPTY_LIST;
         }

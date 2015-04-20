@@ -37,6 +37,10 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
     public static final String AUTOTOOLSGNU_ICON = "org/netbeans/modules/cppgnuautotools/ATool16b.png";
 
     private final AutotoolsProject project;
+    
+    private final String computer_arch = System.getProperty("os.arch");
+    
+    private static Boolean Is32Bit = true;
 
     public AutotoolsProjectLogicalView(AutotoolsProject project) {
         this.project = project;
@@ -49,6 +53,25 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
             FileObject projectDirectory = project.getProjectDirectory();
             DataFolder projectFolder = DataFolder.findFolder(projectDirectory);
             Node nodeOfProjectFolder = projectFolder.getNodeDelegate();
+            
+            /**
+             * If you debug to right here on 
+             * Ubuntu 14.04 32 bit virtual machine
+             * you will get i386.
+             * According to StackOverflow web site
+             * If the Ubuntu 14.04 is 64 bit
+             * this will return amd64.  
+             * So, I am trying both.
+             */
+            if (computer_arch.compareToIgnoreCase("i386") != 0)
+            {
+                Is32Bit = false;
+            }
+            if (computer_arch.compareToIgnoreCase("amd64") == 0)
+            {
+                Is32Bit = false;
+            }
+            
             //Decorate the project directory's node:
             return new ProjectNode(nodeOfProjectFolder, project);
         } catch (DataObjectNotFoundException donfe) {
@@ -63,7 +86,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuLibtoolizeActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, LIBTOOLIZE_RUNNABLE);
+            super((Project)project, Is32Bit, label, LIBTOOLIZE_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {
@@ -83,7 +106,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuACLocalActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, ACLOCAL_RUNNABLE);
+            super((Project)project, Is32Bit, label, ACLOCAL_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {
@@ -103,7 +126,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuAutoHeaderActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, AUTOHEADER_RUNNABLE);
+            super((Project)project, Is32Bit, label, AUTOHEADER_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {
@@ -123,7 +146,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuAutoMakeActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, AUTOMAKE_RUNNABLE);
+            super((Project)project, Is32Bit, label, AUTOMAKE_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {
@@ -143,7 +166,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuAutoConfActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, AUTOCONF_RUNNABLE);
+            super((Project)project, Is32Bit, label, AUTOCONF_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {
@@ -163,7 +186,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuConfigureActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, CONFIGURE_RUNNABLE);
+            super((Project)project, Is32Bit, label, CONFIGURE_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {
@@ -183,7 +206,7 @@ public class AutotoolsProjectLogicalView implements LogicalViewProvider {
         final AutotoolsProject project;
         
         PrjMenuCleanAutotoolsActionInternal(AutotoolsProject project, String label) {
-            super((Project)project, label, CLEAN_AUTOTOOLS_RUNNABLE);
+            super((Project)project, Is32Bit, label, CLEAN_AUTOTOOLS_RUNNABLE);
             this.project = project;
         }
         @Override public boolean isEnabled() {

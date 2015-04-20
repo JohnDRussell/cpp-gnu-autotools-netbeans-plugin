@@ -40,8 +40,9 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
     public Object[] m_oPossibleValues;
     public String m_sSelected;
     private final static int AUTOTOOLS_TIMER_DELAY = 2000;
+    private Boolean m_bIs32Bit;
 
-    public OSReadAbsActTimer(Project context, String label, int nTypeRunnable) {
+    public OSReadAbsActTimer(Project context, Boolean is32Bit, String label, int nTypeRunnable) {
         super(label);
         this.context = context;
         this.m_nTypeRunnable = nTypeRunnable;
@@ -51,6 +52,7 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
         m_nPermsInternalB = -1;
         m_nTimerCounter = 0;
         m_nTimerRepeater = 0;
+        m_bIs32Bit = is32Bit;
     }
     
     @Override
@@ -63,7 +65,7 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
             hFilePerm.StartProgressIndicator();
             m_nTimerCounter = 0 ;
             // JOptionPane.showMessageDialog(null, "ACLocal Starting timer actionPerformedOSRT m_sProjectPath: " + m_sProjectPath);
-            specificToolPerform();
+            specificToolPerform(m_bIs32Bit);
             m_nPermsInternal = hFilePerm.getAfilePermissions(m_sAbsPath, context, conf);
             int delay = AUTOTOOLS_TIMER_DELAY; //milliseconds
             ActionListener taskPerformer = new ActionListener() {
@@ -108,37 +110,65 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
             case 1:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillLibtoolize();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("libtoolize_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("libtoolize_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("libtoolize64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
             case 2:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillACLocal();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("aclocal_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("aclocal_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("aclocal64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
             case 3:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillAutoHeader();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("autoheader_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("autoheader_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("autoheader64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
             case 4:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillAutoMake();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("automake_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("automake_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("automake64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
             case 5:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillAutoConf();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("autoconf_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("autoconf_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("autoconf64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
             case 6:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillConfigure();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("configure_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("configure_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("configure64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
             case 7:
                 m_oPossibleValues = null;
                 m_oPossibleValues = AutotoolsOptions.fillAutotoolsClean();
-                m_sAbsPath = InstalledFileLocator.getDefault().locate("clean_autotools_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                if (m_bIs32Bit) {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("clean_autotools_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                } else {
+                    m_sAbsPath = InstalledFileLocator.getDefault().locate("clean_autotools64bit_runnable", "org.netbeans.modules.cppgnuautotools", false).getAbsolutePath();
+                }
                 break;
         } 
 
@@ -178,7 +208,7 @@ public class OSReadAbsActTimer extends AbstractAction implements FunctionExecuto
         }
     }
 
-    public void specificToolPerform() {
+    public void specificToolPerform(Boolean bIs32Bit) {
         
     }
     
