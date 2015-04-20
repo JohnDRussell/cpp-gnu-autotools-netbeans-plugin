@@ -58,9 +58,13 @@ build: .build-post
 
 .build-post: .build-impl
 # Add your post 'build' code here...
+ifeq (${CONF},ReleaseX64)
+	${CP} dist/${CONF}/GNU-Linux-x86/libtoolize64bit_runnable ../../release/libtoolize64bit_runnable
+	${CP} dist/${CONF}/GNU-Linux-x86/libtoolize64bit_runnable ../../build/cluster/libtoolize64bit_runnable
+else
 	${CP} dist/${CONF}/GNU-Linux-x86/libtoolize_runnable ../../release/libtoolize_runnable
 	${CP} dist/${CONF}/GNU-Linux-x86/libtoolize_runnable ../../build/cluster/libtoolize_runnable
-
+endif
 
 # clean
 clean: .clean-post

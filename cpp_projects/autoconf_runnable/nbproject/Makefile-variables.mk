@@ -22,6 +22,14 @@ CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/autoconf_runnable
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
 CND_PACKAGE_NAME_Release=autoconfrunnable.tar
 CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/autoconfrunnable.tar
+# ReleaseX64 configuration
+CND_PLATFORM_ReleaseX64=GNU-Linux-x86
+CND_ARTIFACT_DIR_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86
+CND_ARTIFACT_NAME_ReleaseX64=autoconf64bit_runnable
+CND_ARTIFACT_PATH_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86/autoconf64bit_runnable
+CND_PACKAGE_DIR_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86/package
+CND_PACKAGE_NAME_ReleaseX64=autoconfrunnable.tar
+CND_PACKAGE_PATH_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86/package/autoconfrunnable.tar
 #
 # include compiler specific variables
 #

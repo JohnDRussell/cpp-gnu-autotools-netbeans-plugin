@@ -58,8 +58,13 @@ build: .build-post
 
 .build-post: .build-impl
 # Add your post 'build' code here...
+ifeq (${CONF},ReleaseX64)
+	${CP} dist/${CONF}/GNU-Linux-x86/aclocal64bit_runnable ../../release/aclocal64bit_runnable
+	${CP} dist/${CONF}/GNU-Linux-x86/aclocal64bit_runnable ../../build/cluster/aclocal64bit_runnable
+else
 	${CP} dist/${CONF}/GNU-Linux-x86/aclocal_runnable ../../release/aclocal_runnable
 	${CP} dist/${CONF}/GNU-Linux-x86/aclocal_runnable ../../build/cluster/aclocal_runnable
+endif
 
 # clean
 clean: .clean-post

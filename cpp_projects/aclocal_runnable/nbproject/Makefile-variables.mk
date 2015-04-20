@@ -22,6 +22,14 @@ CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/aclocal_runnable
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
 CND_PACKAGE_NAME_Release=aclocalrunnable.tar
 CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/aclocalrunnable.tar
+# ReleaseX64 configuration
+CND_PLATFORM_ReleaseX64=GNU-Linux-x86
+CND_ARTIFACT_DIR_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86
+CND_ARTIFACT_NAME_ReleaseX64=aclocal64bit_runnable
+CND_ARTIFACT_PATH_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86/aclocal64bit_runnable
+CND_PACKAGE_DIR_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86/package
+CND_PACKAGE_NAME_ReleaseX64=aclocal64runnable.tar
+CND_PACKAGE_PATH_ReleaseX64=dist/ReleaseX64/GNU-Linux-x86/package/aclocal64runnable.tar
 #
 # include compiler specific variables
 #

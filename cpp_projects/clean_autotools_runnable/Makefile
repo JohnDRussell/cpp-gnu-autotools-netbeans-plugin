@@ -58,8 +58,13 @@ build: .build-post
 
 .build-post: .build-impl
 # Add your post 'build' code here...
+ifeq (${CONF},ReleaseX64)
+	${CP} dist/${CONF}/GNU-Linux-x86/clean_autotools64bit_runnable ../../release/clean_autotools64bit_runnable
+	${CP} dist/${CONF}/GNU-Linux-x86/clean_autotools64bit_runnable ../../build/cluster/clean_autotools64bit_runnable
+else
 	${CP} dist/${CONF}/GNU-Linux-x86/clean_autotools_runnable ../../release/clean_autotools_runnable
 	${CP} dist/${CONF}/GNU-Linux-x86/clean_autotools_runnable ../../build/cluster/clean_autotools_runnable
+endif
 
 # clean
 clean: .clean-post

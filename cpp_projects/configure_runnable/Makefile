@@ -58,9 +58,13 @@ build: .build-post
 
 .build-post: .build-impl
 # Add your post 'build' code here...
+ifeq (${CONF},ReleaseX64)
+	${CP} dist/${CONF}/GNU-Linux-x86/configure64bit_runnable ../../release/configure64bit_runnable
+	${CP} dist/${CONF}/GNU-Linux-x86/configure64bit_runnable ../../build/cluster/configure64bit_runnable
+else
 	${CP} dist/${CONF}/GNU-Linux-x86/configure_runnable ../../release/configure_runnable
 	${CP} dist/${CONF}/GNU-Linux-x86/configure_runnable ../../build/cluster/configure_runnable
-
+endif
 
 # clean
 clean: .clean-post

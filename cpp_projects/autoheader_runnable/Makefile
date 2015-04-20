@@ -58,9 +58,13 @@ build: .build-post
 
 .build-post: .build-impl
 # Add your post 'build' code here...
+ifeq (${CONF},ReleaseX64)
+	${CP} dist/${CONF}/GNU-Linux-x86/autoheader64bit_runnable ../../release/autoheader64bit_runnable
+	${CP} dist/${CONF}/GNU-Linux-x86/autoheader64bit_runnable ../../build/cluster/autoheader64bit_runnable
+else
 	${CP} dist/${CONF}/GNU-Linux-x86/autoheader_runnable ../../release/autoheader_runnable
 	${CP} dist/${CONF}/GNU-Linux-x86/autoheader_runnable ../../build/cluster/autoheader_runnable
-
+endif
 
 # clean
 clean: .clean-post
