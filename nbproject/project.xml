@@ -219,6 +219,7 @@
             </module-dependencies>
             <public-packages>
                 <package>org.netbeans.modules.cppgnuautotools</package>
+                <package>org.netbeans.modules.cppgnuautotools.samples</package>
             </public-packages>
         </data>
     </configuration>

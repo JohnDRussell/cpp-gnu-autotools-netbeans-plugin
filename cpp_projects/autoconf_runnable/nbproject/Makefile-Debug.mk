@@ -65,13 +65,13 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/autoconf_runnable: ${OBJECTFILES}
 
 ${OBJECTDIR}/_ext/507337833/execute_stream.o: ../runnableCommon/execute_stream.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/507337833
-	${RM} $@.d
-	$(COMPILE.cc) -g -I../runnableCommon -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/507337833/execute_stream.o ../runnableCommon/execute_stream.cpp
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../runnableCommon -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/507337833/execute_stream.o ../runnableCommon/execute_stream.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.cc) -g -I../runnableCommon -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.cpp
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../runnableCommon -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 # Subprojects
 .build-subprojects:

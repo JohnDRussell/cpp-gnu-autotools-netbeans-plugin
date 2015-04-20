@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.cppgnuautotools">
-    <module_version install_time="1384991147189" last="true" origin="installer" specification_version="1.0.1.1.1.1.1.1.2.1.1">
-        <file crc="406982038" name="aclocal_runnable"/>
-        <file crc="3935008661" name="autoconf_runnable"/>
-        <file crc="2594401943" name="autoheader_runnable"/>
-        <file crc="4019487521" name="automake_runnable"/>
-        <file crc="1838330306" name="clean_autotools_runnable"/>
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.cppgnuautotools/1">
+    <module_version install_time="1429475962601" last="true" origin="installer" specification_version="1.2.2.1.1.1.1.1.1.2.1.1">
+        <file crc="3490364644" name="aclocal_runnable"/>
+        <file crc="415496689" name="autoconf_runnable"/>
+        <file crc="1190636627" name="autoheader_runnable"/>
+        <file crc="2246502985" name="automake_runnable"/>
+        <file crc="500674235" name="clean_autotools_runnable"/>
         <file crc="93633213" name="config/Modules/org-netbeans-modules-cppgnuautotools.xml"/>
-        <file crc="1254708856" name="configure_runnable"/>
-        <file crc="605921639" name="libtoolize_runnable"/>
-        <file crc="217637118" name="modules/org-netbeans-modules-cppgnuautotools.jar"/>
+        <file crc="3713201641" name="configure_runnable"/>
+        <file crc="2709943213" name="libtoolize_runnable"/>
+        <file crc="370568168" name="modules/org-netbeans-modules-cppgnuautotools.jar"/>
     </module_version>
 </module>
