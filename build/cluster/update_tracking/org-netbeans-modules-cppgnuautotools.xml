@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.cppgnuautotools/1">
-    <module_version install_time="1429565348642" last="true" origin="installer" specification_version="1.6.6.1.1.1.1.1.1.2.1.1">
+    <module_version install_time="1430277947421" last="true" origin="installer" specification_version="1.6.8.1.1.1.1.1.1.2.1.1">
         <file crc="516352625" name="aclocal64bit_runnable"/>
         <file crc="3490364644" name="aclocal_runnable"/>
         <file crc="1312855426" name="autoconf64bit_runnable"/>
@@ -15,6 +15,6 @@
         <file crc="3713201641" name="configure_runnable"/>
         <file crc="29277141" name="libtoolize64bit_runnable"/>
         <file crc="2709943213" name="libtoolize_runnable"/>
-        <file crc="1035178482" name="modules/org-netbeans-modules-cppgnuautotools.jar"/>
+        <file crc="2389651313" name="modules/org-netbeans-modules-cppgnuautotools.jar"/>
     </module_version>
 </module>
